@@ -1,0 +1,6876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+	
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Dokumentation f�r IDoc-Satzarten bzw. IDoctyp</title>
+	</head>
+	
+<body>
+		<hr />
+		<h1>
+			<a name="IDOCTYPE">Struktur des Basistypen PEXR2003</a>
+		</h1>
+		<h1>Zahlung/Zahlungsavis/Gutschriftsanzeige/Belastungsanzeige</h1>
+		<hr />
+		<p></p>
+		<ul>
+			<li>
+				<b>E1IDKU1                     : IDOC - Kopf Ueberweisungsauftrag/Zahlungsavis (BGM)</b>
+				<p>
+					Status : Erforderlich,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU1                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1EDK03                     : IDOC: Belegkopf Datumssegment</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          3
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1EDK03                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1EDK02                     : IDOC: Belegkopf Referenzdaten</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1EDK02                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1EDK12                     : IDOC: Belegkopf Referenzdaten</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :         99
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1EDK12                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDKU2                     : IDOC PAYORD/REMADV - Funktion des Handelsgeschaefts (BUS)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU2                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDT01                     : EDI IDOC Langtexte</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDT01                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDKU3                     : IDOC PAYORD/REMADV - Zahlungsweisungen (PAI)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU3                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDKU4                     : IDOC PAYORD/REMADV - GEBUEHRENREGELUNG (FCA)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU4                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDKU5                     : IDOC - Betraege auf Kopfebene (MOA/CUX)</b>
+				<p>
+					Status : Erforderlich,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU5                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+				<ul>
+					<li>
+						<b>E1EDL03                     : Datumssegment 2 Kopf IDOC = EDK03</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          1
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDL03                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1EDL02                     : EDI: Referenzen Kopf 2</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          1
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDL02                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+					</li>
+				</ul>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDB02                     : IDOC KOPF - ERWEITERTE BANKVERBINDUNG (FII/CTA/COM)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          4
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDB02                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDBL2                     : IDOC KOPF - KORRESPONDENZBANKEN</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :         10
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDBL2                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1EDKA1                     : IDOC: Belegkopf Partnerinformationen</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          4
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1EDKA1                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDBW1                     : IDOC KOPF - BESONDERE WEISUNGEN (INP)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          4
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDBW1                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+				<ul>
+					<li>
+						<b>E1EDM03                     : Datumssegment 3 Kopf IDOC = EDK03</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          2
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDM03                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+					</li>
+				</ul>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDPU1                     : IDOC - POSITION PAYORD/REMADV (DOC)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :     200000
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDPU1                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+				<ul>
+					<li>
+						<b>E1IDPU5                     : IDOC - BETRAEGE AUF POSITIONSEBENE (MOA/CUX)</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :         10
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1IDPU5                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+						<ul>
+							<li>
+								<b>E1EDU03                     : EDI: IDOC Datum Unterposition</b>
+								<p>
+									Status : Optional    ,
+									min. Anzahl :          1     , max. Anzahl :          1
+								</p>
+								<p></p>
+								<p>
+									<a href="#E1EDU03                    STRUCT">
+										<i>Struktur</i>
+									</a>
+								</p>
+							</li>
+						</ul>
+						<p></p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1EDPA1                     : IDOC: Belegposition Partnerinformation</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :         10
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDPA1                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1EDK14                     : IDOC: Belegkopf Organisationsdaten</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :         10
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDK14                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1EDP03                     : IDOC: Belegposition Datumssegment</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          4
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDP03                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1EDP02                     : IDOC: Belegposition Referenzdaten</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          4
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDP02                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1IDPU2                     : IDOC - POSITION ABZUEGE (ADJ/MOA/RFF)</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :        100
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1IDPU2                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1IDPU3                     : IDOC - UNTERPOSITION (DLI)</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :     200000
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1IDPU3                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+						<ul>
+							<li>
+								<b>E1IDUU5                     : IDOC - BETRAEGE AUF UNTERPOSITIONSEBENE (MOA/CUX)</b>
+								<p>
+									Status : Optional    ,
+									min. Anzahl :          1     , max. Anzahl :          2
+								</p>
+								<p></p>
+								<p>
+									<a href="#E1IDUU5                    STRUCT">
+										<i>Struktur</i>
+									</a>
+								</p>
+								<p></p>
+								<ul>
+									<li>
+										<b>E1EDV03                     : EDI: IDOC Datum Unterposition</b>
+										<p>
+											Status : Optional    ,
+											min. Anzahl :          1     , max. Anzahl :          1
+										</p>
+										<p></p>
+										<p>
+											<a href="#E1EDV03                    STRUCT">
+												<i>Struktur</i>
+											</a>
+										</p>
+									</li>
+								</ul>
+								<p></p>
+								<p></p>
+							</li>
+							<li>
+								<b>E1IDUU4                     : IDOC - UNTERPOSITION PRODUKTIDENTIFIKATION (PIA)</b>
+								<p>
+									Status : Optional    ,
+									min. Anzahl :          1     , max. Anzahl :          5
+								</p>
+								<p></p>
+								<p>
+									<a href="#E1IDUU4                    STRUCT">
+										<i>Struktur</i>
+									</a>
+								</p>
+								<p></p>
+							</li>
+							<li>
+								<b>E1EDW03                     : EDI: IDOC Datum Unterposition</b>
+								<p>
+									Status : Optional    ,
+									min. Anzahl :          1     , max. Anzahl :          5
+								</p>
+								<p></p>
+								<p>
+									<a href="#E1EDW03                    STRUCT">
+										<i>Struktur</i>
+									</a>
+								</p>
+								<p></p>
+							</li>
+							<li>
+								<b>E1IDUU2                     : IDOC - UUNTERPOSITION ABZUEGE (ADJ/MOA/RFF)</b>
+								<p>
+									Status : Optional    ,
+									min. Anzahl :          1     , max. Anzahl :         10
+								</p>
+								<p></p>
+								<p>
+									<a href="#E1IDUU2                    STRUCT">
+										<i>Struktur</i>
+									</a>
+								</p>
+							</li>
+						</ul>
+						<p></p>
+					</li>
+				</ul>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDLU5                     : IDOC - Betraege auf Kopfebene (MOA/CUX)</b>
+				<p>
+					Status : Erforderlich,
+					min. Anzahl :          1     , max. Anzahl :         10
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDLU5                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDKU6                     : IDOC - MELDUNG AN CLEARINGSTELLE (GIS)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU6                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+				<ul>
+					<li>
+						<b>E1EDLA1                     : EDI:Partnerinformationen Kopf</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          1
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1EDLA1                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1IDMU5                     : IDOC - Betraege auf Kopfebene (MOA/CUX)</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :          1
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1IDMU5                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+						<p></p>
+					</li>
+					<li>
+						<b>E1IDT02                     : EDI IDOC Langtexte</b>
+						<p>
+							Status : Optional    ,
+							min. Anzahl :          1     , max. Anzahl :        100
+						</p>
+						<p></p>
+						<p>
+							<a href="#E1IDT02                    STRUCT">
+								<i>Struktur</i>
+							</a>
+						</p>
+					</li>
+				</ul>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDKU7                     : IDOC - AUTORISIERUNG (AUT)</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDKU7                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDIBA                     : IDOC SWIFT und IBAN Bankdaten, analog zu Segment E1IDB02</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :         10
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDIBA                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDS01                     : IDOC Direct Debit Mandat Daten</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          2
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDS01                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDAD1                     : IDOC Weitere Adressen</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          9
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDAD1                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDTRA                     : IDOC Transaktionsdaten</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          1
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDTRA                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+				<p></p>
+			</li>
+			<li>
+				<b>E1IDDS1                     : IDOC Digital Signature</b>
+				<p>
+					Status : Optional    ,
+					min. Anzahl :          1     , max. Anzahl :          3
+				</p>
+				<p></p>
+				<p>
+					<a href="#E1IDDS1                    STRUCT">
+						<i>Struktur</i>
+					</a>
+				</p>
+			</li>
+		</ul>
+		<hr />
+		<h1>
+			<a name="SEGMENTSTRUCT">Segment-Strukturen</a>
+		</h1>
+		<hr />
+		<p></p>
+		<ul>
+			<li>
+				<h2>
+					<a name="E1IDKU1                    STRUCT">E1IDKU1                     : IDOC - Kopf Ueberweisungsauftrag/Zahlungsavis (BGM)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU1
+					freigegeben seit Release 30A , Segmentl�nge : 0079
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						BGMTYP                         :
+						<b>Dokumenttyp</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BGMNAME                        :
+						<b>Dokument/Nachricht, Name</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BGMREF                         :
+						<b>Referenznummer der Nachricht</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0101. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BGMLEV                         :
+						<b>Nachrichtenart (Bestaetigung, Storno, Original...), codiert</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0136. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BGMACC                         :
+						<b>Best�tigungsstufe (Empfang, Ausf�hrung, beides), codiert</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0139. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDK03                    STRUCT">E1EDK03                     : IDOC: Belegkopf Datumssegment</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDK03
+					freigegeben seit Release 30A , Segmentl�nge : 0017
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>IDOC: Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>IDOC: Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDK02                    STRUCT">E1EDK02                     : IDOC: Belegkopf Referenzdaten</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDK02
+					freigegeben seit Release 30A , Segmentl�nge : 0058
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALF                          :
+						<b>IDOC Qualifier Referenzbeleg</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BELNR                          :
+						<b>IDOC Belegnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						POSNR                          :
+						<b>Positionsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>IDOC: Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>IDOC: Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDK12                    STRUCT">E1EDK12                     : IDOC: Belegkopf Referenzdaten</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDK12000
+					freigegeben seit Release 45A , Segmentl�nge : 0058
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALF                          :
+						<b>IDOC Qualifier Referenzbeleg</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BELNR                          :
+						<b>IDOC Belegnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						POSNR                          :
+						<b>Positionsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>IDOC: Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>IDOC: Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDKU2                    STRUCT">E1IDKU2                     : IDOC PAYORD/REMADV - Funktion des Handelsgeschaefts (BUS)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU2
+					freigegeben seit Release 30A , Segmentl�nge : 0082
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						BUSFUN                         :
+						<b>Art des Handelsgeschaefts/Zahlungsgrund</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BUSGEO                         :
+						<b>nationale/internationale Zahlung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BUSZBE                         :
+						<b>Beschreibung Zahlungsgrund</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0069. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BUSZEB                         :
+						<b>Zahlungsebene (zwischen zwei Firmen/innerhalb einer)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0139. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BUSZFO                         :
+						<b>Zahlungsform bei der Bank</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0142. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDT01                    STRUCT">E1IDT01                     : EDI IDOC Langtexte</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDT01
+					freigegeben seit Release 30A , Segmentl�nge : 0987
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						TXTVW                          :
+						<b>Text-ID</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXTSP                          :
+						<b>Sprache kurz</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0067. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXTLF                          :
+						<b>Fortsetzungstext (laufende Nummer)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0068. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT01                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0070. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT02                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0140. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT03                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0210. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT04                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0280. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT05                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0350. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT06                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0420. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT07                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0490. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT08                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0560. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT09                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0630. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT10                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0700. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT11                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0770. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT12                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0840. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT13                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0910. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT14                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0980. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDKU3                    STRUCT">E1IDKU3                     : IDOC PAYORD/REMADV - Zahlungsweisungen (PAI)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU3002
+					freigegeben seit Release 45A , Segmentl�nge : 0646
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						PAIKON                         :
+						<b>Zahlungsbedingung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAIGAR                         :
+						<b>Zahlungsgarantie</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAIART                         :
+						<b>Zahlungsart Bank</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0069. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAIMED                         :
+						<b>Medium der Uebermittlung des Zahlungsauftrages</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0072. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAIRZAWE                       :
+						<b>Zahlweg f�r diese Regulierung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0075. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAIUZAWE                       :
+						<b>Zusatz zum Zahlweg</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0076. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAYRUNCC                       :
+						<b>Zahlender Buchungskreis</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0078. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAYRUNID                       :
+						<b>Zus�tzliches Identifikationsmerkmal</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0082. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAYRUNDT                       :
+						<b>IDOC: Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0088. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						EXTPAYM                        :
+						<b>Zahlungsart Bank</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0096. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						EXTDESC                        :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0099. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						RELNUM                         :
+						<b>Vorgangsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : NUMC
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0169. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSCODE1                       :
+						<b>Codewort der Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0181. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSTEXT1                       :
+						<b>Text zur Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000050 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0193. externe L�nge : 000050
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSINFO1                       :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0243. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSCODE2                       :
+						<b>Codewort der Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0313. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSTEXT2                       :
+						<b>Text zur Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000050 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0325. externe L�nge : 000050
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSINFO2                       :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0375. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSCODE3                       :
+						<b>Codewort der Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0445. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSTEXT3                       :
+						<b>Text zur Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000050 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0457. externe L�nge : 000050
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSINFO3                       :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0507. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSCODE4                       :
+						<b>Codewort der Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0577. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSTEXT4                       :
+						<b>Text zur Weisung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000050 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0589. externe L�nge : 000050
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INSINFO4                       :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0639. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDKU4                    STRUCT">E1IDKU4                     : IDOC PAYORD/REMADV - GEBUEHRENREGELUNG (FCA)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU4
+					freigegeben seit Release 30A , Segmentl�nge : 0056
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						FCAREGUL                       :
+						<b>Gebuehrenregelung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCAGIDBN                       :
+						<b>Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCAGBNNR                       :
+						<b>Art der Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0083. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCAGKNTO                       :
+						<b>Geb�hrenkonto Kontonummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0086. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCAGWAER                       :
+						<b>Geb�hrenkonto W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0116. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDKU5                    STRUCT">E1IDKU5                     : IDOC - Betraege auf Kopfebene (MOA/CUX)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU5001
+					freigegeben seit Release 45B , Segmentl�nge : 0121
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						MOAQUAL                        :
+						<b>Qualifier fuer den Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETR                        :
+						<b>Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERZ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERQ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS                        :
+						<b>Kurs bei W�hrungsumrechnungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXDATUM                       :
+						<b>Datum zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXZEIT                        :
+						<b>Uhrzeit zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS_M                      :
+						<b>Mengennotierter Kurs in einem IDoc-Segment</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDL03                    STRUCT">E1EDL03                     : Datumssegment 2 Kopf IDOC = EDK03</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDL03
+					freigegeben seit Release 30A , Segmentl�nge : 0017
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDL02                    STRUCT">E1EDL02                     : EDI: Referenzen Kopf 2</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDL02
+					freigegeben seit Release 30A , Segmentl�nge : 0058
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALF                          :
+						<b>IDOC Qualifier Referenzbeleg</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BELNR                          :
+						<b>IDOC Belegnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						POSNR                          :
+						<b>Positionsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDB02                    STRUCT">E1IDB02                     : IDOC KOPF - ERWEITERTE BANKVERBINDUNG (FII/CTA/COM)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDB02002
+					freigegeben seit Release 45A , Segmentl�nge : 0534
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						FIIQUALI                       :
+						<b>Art der Bankverbindung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKENN                       :
+						<b>Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000011 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000011
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKCDE                       :
+						<b>Art der Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0077. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKUKN                       :
+						<b>Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0080. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKUCD                       :
+						<b>Art der Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0097. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKNAM                       :
+						<b>Bankname</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0100. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKORT                       :
+						<b>Bankort</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0170. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBLAND                       :
+						<b>Bankland</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0240. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKONTO                       :
+						<b>Kontonummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0243. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKNAME                       :
+						<b>Kontoinhaber</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0273. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKNAM2                       :
+						<b>Kontoinhaber 2. Zeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0308. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKWAER                       :
+						<b>Kontow�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0343. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CTAFUNKT                       :
+						<b>Ansprechpartner, Funktion</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0346. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CTABNAME                       :
+						<b>Ansprechpartner/Abteilung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0349. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM1                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0384. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART1                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0409. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM2                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0412. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART2                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0437. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM3                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0440. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART3                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0465. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM4                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0468. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART4                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0493. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM5                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0496. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART5                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0521. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKONT                       :
+						<b>Bankenkontrollschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 025, Offset : 0524. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIXPGRO                       :
+						<b>Postbank-Girokonto</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 026, Offset : 0526. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBRANCH                      :
+						<b>Bankname</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 027, Offset : 0527. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDBL2                    STRUCT">E1IDBL2                     : IDOC KOPF - KORRESPONDENZBANKEN</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDBL2000
+					freigegeben seit Release 45A , Segmentl�nge : 0534
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						FIIQUALI                       :
+						<b>Art der Bankverbindung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKENN                       :
+						<b>Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000011 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000011
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKCDE                       :
+						<b>Art der Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0077. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKUKN                       :
+						<b>Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0080. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKUCD                       :
+						<b>Art der Bankkennung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0097. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKNAM                       :
+						<b>Bankname</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0100. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKORT                       :
+						<b>Bankort</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0170. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBLAND                       :
+						<b>Bankland</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0240. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKONTO                       :
+						<b>Kontonummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0243. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKNAME                       :
+						<b>Kontoinhaber</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0273. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKNAM2                       :
+						<b>Kontoinhaber 2. Zeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0308. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIKWAER                       :
+						<b>Kontow�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0343. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CTAFUNKT                       :
+						<b>Ansprechpartner, Funktion</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0346. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CTABNAME                       :
+						<b>Ansprechpartner/Abteilung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0349. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM1                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0384. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART1                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0409. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM2                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0412. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART2                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0437. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM3                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0440. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART3                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0465. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM4                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0468. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART4                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0493. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNUMM5                       :
+						<b>Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0496. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COMNART5                       :
+						<b>Art zur Kommunikationsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0521. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBKONT                       :
+						<b>Bankenkontrollschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 025, Offset : 0524. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIXPGRO                       :
+						<b>Postbank-Girokonto</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 026, Offset : 0526. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FIIBRANCH                      :
+						<b>Bankname</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 027, Offset : 0527. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDKA1                    STRUCT">E1EDKA1                     : IDOC: Belegkopf Partnerinformationen</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDKA1003
+					freigegeben seit Release 45A , Segmentl�nge : 0995
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						PARVW                          :
+						<b>Partnerrolle (z.B. Auftraggeber, Warenempf�nger, ...)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARTN                          :
+						<b>Partnernummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LIFNR                          :
+						<b>Lieferantennummer beim Kunden</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0083. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME1                          :
+						<b>Name 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0100. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME2                          :
+						<b>Name 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0135. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME3                          :
+						<b>Name 3</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0170. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME4                          :
+						<b>Name 4</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0205. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STRAS                          :
+						<b>Stra�e und Hausnummer 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0240. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STRS2                          :
+						<b>Stra�e und Hausnummer 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0275. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFACH                          :
+						<b>Postfach</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0310. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORT01                          :
+						<b>Ort</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0345. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COUNC                          :
+						<b>County code</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0380. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTLZ                          :
+						<b>Postleitzahl</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0389. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTL2                          :
+						<b>Postleitzahl des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0398. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LAND1                          :
+						<b>L�nderschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0407. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ABLAD                          :
+						<b>Abladestelle</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0410. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PERNR                          :
+						<b>Personalnummer des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0445. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARNR                          :
+						<b>Ansprechpartnernummer (nicht Personalnummer)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0475. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF1                          :
+						<b>Telefonnummer 1 des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0505. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF2                          :
+						<b>Telefonnummer 2 des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0530. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELBX                          :
+						<b>Teleboxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0555. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELFX                          :
+						<b>Telefaxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0580. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELTX                          :
+						<b>Teletexnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0605. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELX1                          :
+						<b>Telexnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0630. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SPRAS                          :
+						<b>Sprachenschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 025, Offset : 0655. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ANRED                          :
+						<b>Anrede</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000015 Stellen
+							<br />
+							Position in Segment : 026, Offset : 0656. externe L�nge : 000015
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORT02                          :
+						<b>Ortsteil</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 027, Offset : 0671. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						HAUSN                          :
+						<b>Hausnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 028, Offset : 0706. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STOCK                          :
+						<b>Stockwerk</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 029, Offset : 0712. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						REGIO                          :
+						<b>Region</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 030, Offset : 0718. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARGE                          :
+						<b>Geschlecht des Partners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 031, Offset : 0721. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ISOAL                          :
+						<b>ISO-Code des Landes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 032, Offset : 0722. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ISONU                          :
+						<b>ISO-Code des Landes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 033, Offset : 0724. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCODE                          :
+						<b>Firmencode Frankreich</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000020 Stellen
+							<br />
+							Position in Segment : 034, Offset : 0726. externe L�nge : 000020
+						</p>
+						<p></p>
+					</li>
+					<li>
+						IHREZ                          :
+						<b>Ihr Zeichen (vom Partner)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 035, Offset : 0746. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BNAME                          :
+						<b>IDOC Benutzername</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 036, Offset : 0776. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAORG                          :
+						<b>IDOC Organisationscode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 037, Offset : 0811. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORGTX                          :
+						<b>IDOC Organisationscode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 038, Offset : 0841. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAGRU                          :
+						<b>IDOC Gruppencode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 039, Offset : 0876. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						KNREF                          :
+						<b>Kundenindividuelle Bez. des Gesch�ftspartners (Werk, Lager)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 040, Offset : 0906. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ILNNR                          :
+						<b>Characterfeld der L�nge 70</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 041, Offset : 0936. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFORT                          :
+						<b>Ort des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 042, Offset : 1006. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SPRAS_ISO                      :
+						<b>Sprache nach ISO 639</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 043, Offset : 1041. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TITLE                          :
+						<b>Anrede</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000015 Stellen
+							<br />
+							Position in Segment : 044, Offset : 1043. externe L�nge : 000015
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDBW1                    STRUCT">E1IDBW1                     : IDOC KOPF - BESONDERE WEISUNGEN (INP)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDBW1
+					freigegeben seit Release 30A , Segmentl�nge : 0362
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						INPWEGEB                       :
+						<b>Weisungsgeber</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPWEEMP                       :
+						<b>Weisungsempfaenger</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPBESWE                       :
+						<b>Weisungsschluessel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0069. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPWTXT1                       :
+						<b>Weisung - Freitext</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0072. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPWTXT2                       :
+						<b>Weisung - Freitext</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0142. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPWTXT3                       :
+						<b>Weisung - Freitext</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0212. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPWTXT4                       :
+						<b>Weisung - Freitext</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0282. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPWTXT5                       :
+						<b>Weisung - Freitext</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0352. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INPTXTSP                       :
+						<b>Sprache Weisungstext</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0422. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDM03                    STRUCT">E1EDM03                     : Datumssegment 3 Kopf IDOC = EDK03</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDM03
+					freigegeben seit Release 30A , Segmentl�nge : 0019
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDPU1                    STRUCT">E1IDPU1                     : IDOC - POSITION PAYORD/REMADV (DOC)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDPU1
+					freigegeben seit Release 30A , Segmentl�nge : 0079
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						DOCNAME                        :
+						<b>Nachrichtenname, codiert</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DOCNUMMR                       :
+						<b>Nachrichtennummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DOCDATUM                       :
+						<b>Datum zur Nachricht</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0101. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DOCKOMAR                       :
+						<b>Nachricht, Versandform</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0136. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DOCSTATU                       :
+						<b>Nachrichtenstatus</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0139. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDPU5                    STRUCT">E1IDPU5                     : IDOC - BETRAEGE AUF POSITIONSEBENE (MOA/CUX)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDPU5001
+					freigegeben seit Release 45B , Segmentl�nge : 0121
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						MOAQUAL                        :
+						<b>Qualifier fuer den Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETR                        :
+						<b>Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERZ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERQ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS                        :
+						<b>Kurs bei W�hrungsumrechnungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXDATUM                       :
+						<b>Datum zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXZEIT                        :
+						<b>Uhrzeit zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS_M                      :
+						<b>Mengennotierter Kurs in einem IDoc-Segment</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDU03                    STRUCT">E1EDU03                     : EDI: IDOC Datum Unterposition</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDU03
+					freigegeben seit Release 30A , Segmentl�nge : 0017
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDPA1                    STRUCT">E1EDPA1                     : IDOC: Belegposition Partnerinformation</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDPA1003
+					freigegeben seit Release 45A , Segmentl�nge : 0995
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						PARVW                          :
+						<b>Partnerrolle (z.B. Auftraggeber, Warenempf�nger, ...)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARTN                          :
+						<b>Partnernummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LIFNR                          :
+						<b>Lieferantennummer beim Kunden</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0083. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME1                          :
+						<b>Name 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0100. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME2                          :
+						<b>Name 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0135. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME3                          :
+						<b>Name 3</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0170. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME4                          :
+						<b>Name 4</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0205. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STRAS                          :
+						<b>Stra�e und Hausnummer 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0240. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STRS2                          :
+						<b>Stra�e und Hausnummer 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0275. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFACH                          :
+						<b>Postfach</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0310. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORT01                          :
+						<b>Ort</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0345. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COUNC                          :
+						<b>County code</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0380. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTLZ                          :
+						<b>Postleitzahl</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0389. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTL2                          :
+						<b>Postleitzahl des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0398. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LAND1                          :
+						<b>L�nderschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0407. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ABLAD                          :
+						<b>Abladestelle</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0410. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PERNR                          :
+						<b>Personalnummer des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0445. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARNR                          :
+						<b>Ansprechpartnernummer (nicht Personalnummer)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0475. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF1                          :
+						<b>Telefonnummer 1 des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0505. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF2                          :
+						<b>Telefonnummer 2 des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0530. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELBX                          :
+						<b>Teleboxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0555. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELFX                          :
+						<b>Telefaxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0580. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELTX                          :
+						<b>Teletexnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0605. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELX1                          :
+						<b>Telexnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0630. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SPRAS                          :
+						<b>Sprachenschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 025, Offset : 0655. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ANRED                          :
+						<b>Anrede</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000015 Stellen
+							<br />
+							Position in Segment : 026, Offset : 0656. externe L�nge : 000015
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORT02                          :
+						<b>Ortsteil</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 027, Offset : 0671. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						HAUSN                          :
+						<b>Hausnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 028, Offset : 0706. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STOCK                          :
+						<b>Stockwerk</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 029, Offset : 0712. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						REGIO                          :
+						<b>Region</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 030, Offset : 0718. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARGE                          :
+						<b>Geschlecht des Partners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 031, Offset : 0721. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ISOAL                          :
+						<b>ISO-Code des Landes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 032, Offset : 0722. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ISONU                          :
+						<b>ISO-Code des Landes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 033, Offset : 0724. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCODE                          :
+						<b>Firmencode Frankreich</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000020 Stellen
+							<br />
+							Position in Segment : 034, Offset : 0726. externe L�nge : 000020
+						</p>
+						<p></p>
+					</li>
+					<li>
+						IHREZ                          :
+						<b>Ihr Zeichen (vom Partner)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 035, Offset : 0746. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BNAME                          :
+						<b>IDOC Benutzername</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 036, Offset : 0776. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAORG                          :
+						<b>IDOC Organisationscode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 037, Offset : 0811. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORGTX                          :
+						<b>IDOC Organisationscode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 038, Offset : 0841. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAGRU                          :
+						<b>IDOC Gruppencode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 039, Offset : 0876. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						KNREF                          :
+						<b>Kundenindividuelle Bez. des Gesch�ftspartners (Werk, Lager)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 040, Offset : 0906. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ILNNR                          :
+						<b>Characterfeld der L�nge 70</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 041, Offset : 0936. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFORT                          :
+						<b>Ort des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 042, Offset : 1006. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SPRAS_ISO                      :
+						<b>Sprache nach ISO 639</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 043, Offset : 1041. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TITLE                          :
+						<b>Anrede</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000015 Stellen
+							<br />
+							Position in Segment : 044, Offset : 1043. externe L�nge : 000015
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDK14                    STRUCT">E1EDK14                     : IDOC: Belegkopf Organisationsdaten</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDK14
+					freigegeben seit Release 30A , Segmentl�nge : 0038
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALF                          :
+						<b>IDOC Qualifier Organisation</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORGID                          :
+						<b>IDOC Organisation</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDP03                    STRUCT">E1EDP03                     : IDOC: Belegposition Datumssegment</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDP03
+					freigegeben seit Release 30A , Segmentl�nge : 0017
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDP02                    STRUCT">E1EDP02                     : IDOC: Belegposition Referenzdaten</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDP02001
+					freigegeben seit Release 40A , Segmentl�nge : 0123
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALF                          :
+						<b>IDOC Qualifier Referenzbeleg</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BELNR                          :
+						<b>IDOC Belegnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ZEILE                          :
+						<b>Positionsnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>IDOC: Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>IDOC: Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BSARK                          :
+						<b>IDOC Organisation</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0121. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						IHREZ                          :
+						<b>Ihr Zeichen (vom Partner)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0156. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDPU2                    STRUCT">E1IDPU2                     : IDOC - POSITION ABZUEGE (ADJ/MOA/RFF)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDPU2
+					freigegeben seit Release 30A , Segmentl�nge : 0068
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						AJTGRUND                       :
+						<b>Abzugsgrund</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						AJTRZEIL                       :
+						<b>Referenz-(Rechnungs-)zeile zum Abzug</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETRG                       :
+						<b>Abzugsbetrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0072. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOAWAERS                       :
+						<b>W�hrung zum Abzugsbetrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0090. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						RFFNUMQU                       :
+						<b>Qualifier zur Referenz zum Abzugsgrund</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0093. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						RFFNUMMR                       :
+						<b>Referenznummer zum Abzug</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0096. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDPU3                    STRUCT">E1IDPU3                     : IDOC - UNTERPOSITION (DLI)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDPU3
+					freigegeben seit Release 30A , Segmentl�nge : 0009
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						DLIZEIQU                       :
+						<b>Kennzeichen: Zeile wird bezahlt/wird nicht bezahlt</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DLIRUPOS                       :
+						<b>Referenz-(Rechnungs-)zeile zum Abzug</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDUU5                    STRUCT">E1IDUU5                     : IDOC - BETRAEGE AUF UNTERPOSITIONSEBENE (MOA/CUX)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDUU5001
+					freigegeben seit Release 45B , Segmentl�nge : 0121
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						MOAQUAL                        :
+						<b>Qualifier fuer den Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETR                        :
+						<b>Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERZ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERQ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS                        :
+						<b>Kurs bei W�hrungsumrechnungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXDATUM                       :
+						<b>Datum zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXZEIT                        :
+						<b>Uhrzeit zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS_M                      :
+						<b>Mengennotierter Kurs in einem IDoc-Segment</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDV03                    STRUCT">E1EDV03                     : EDI: IDOC Datum Unterposition</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDV03
+					freigegeben seit Release 30A , Segmentl�nge : 0017
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDUU4                    STRUCT">E1IDUU4                     : IDOC - UNTERPOSITION PRODUKTIDENTIFIKATION (PIA)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDUU4
+					freigegeben seit Release 30A , Segmentl�nge : 0038
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						PIAQUALI                       :
+						<b>Qualifier zur Artikel-/Produktnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PIANUMMR                       :
+						<b>Artikel-/Produktnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDW03                    STRUCT">E1EDW03                     : EDI: IDOC Datum Unterposition</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDW03
+					freigegeben seit Release 30A , Segmentl�nge : 0017
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						IDDAT                          :
+						<b>Qualifier Datumssegment IDOC</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DATUM                          :
+						<b>Datum</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						UZEIT                          :
+						<b>Uhrzeit</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDUU2                    STRUCT">E1IDUU2                     : IDOC - UUNTERPOSITION ABZUEGE (ADJ/MOA/RFF)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDUU2
+					freigegeben seit Release 30A , Segmentl�nge : 0068
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						AJTGRUND                       :
+						<b>Abzugsgrund</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						AJTRZEIL                       :
+						<b>Referenz-(Rechnungs-)zeile zum Abzug</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETRG                       :
+						<b>Abzugsbetrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0072. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOAWAERS                       :
+						<b>W�hrung zum Abzugsbetrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0090. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						RFFNUMQU                       :
+						<b>Qualifier zur Referenz zum Abzugsgrund</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0093. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						RFFNUMMR                       :
+						<b>Referenznummer zum Abzug</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0096. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDLU5                    STRUCT">E1IDLU5                     : IDOC - Betraege auf Kopfebene (MOA/CUX)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDLU5001
+					freigegeben seit Release 45B , Segmentl�nge : 0121
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						MOAQUAL                        :
+						<b>Qualifier fuer den Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETR                        :
+						<b>Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERZ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERQ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS                        :
+						<b>Kurs bei W�hrungsumrechnungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXDATUM                       :
+						<b>Datum zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXZEIT                        :
+						<b>Uhrzeit zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS_M                      :
+						<b>Mengennotierter Kurs in einem IDoc-Segment</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDKU6                    STRUCT">E1IDKU6                     : IDOC - MELDUNG AN CLEARINGSTELLE (GIS)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU6
+					freigegeben seit Release 30A , Segmentl�nge : 0006
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						GISMLDID                       :
+						<b>Meldung weiterleiten ja/nein</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						GISMLDST                       :
+						<b>Meldung an</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1EDLA1                    STRUCT">E1EDLA1                     : EDI:Partnerinformationen Kopf</a>
+				</h2>
+				<p>
+					Segmentdefinition E2EDLA1
+					freigegeben seit Release 30A , Segmentl�nge : 0843
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						PARVW                          :
+						<b>Partnerrolle (z.B. Auftraggeber, Warenempf�nger, ...)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARTN                          :
+						<b>Partnernummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LIFNR                          :
+						<b>Lieferantennummer beim Kunden</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000017 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0083. externe L�nge : 000017
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME1                          :
+						<b>Name 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0100. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME2                          :
+						<b>Name 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0135. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME3                          :
+						<b>Name 3</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0170. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME4                          :
+						<b>Name 4</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0205. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STRAS                          :
+						<b>Stra�e und Hausnummer 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0240. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STRS2                          :
+						<b>Stra�e und Hausnummer 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0275. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFACH                          :
+						<b>Postfach</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0310. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORT01                          :
+						<b>Ort</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0345. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COUNC                          :
+						<b>County code</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0380. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTLZ                          :
+						<b>Postleitzahl</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0389. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTL2                          :
+						<b>Postleitzahl des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000009 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0398. externe L�nge : 000009
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LAND1                          :
+						<b>L�nderschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0407. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ABLAD                          :
+						<b>Abladestelle</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0410. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PERNR                          :
+						<b>Personalnummer des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0445. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARNR                          :
+						<b>Ansprechpartnernummer (nicht Personalnummer)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0475. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF1                          :
+						<b>Telefonnummer 1 des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0505. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF2                          :
+						<b>Telefonnummer 2 des Ansprechpartners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0530. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELBX                          :
+						<b>Teleboxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0555. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELFX                          :
+						<b>Telefaxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0580. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELTX                          :
+						<b>Teletexnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0605. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELX1                          :
+						<b>Telexnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000025 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0630. externe L�nge : 000025
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SPRAS                          :
+						<b>Sprachenschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 025, Offset : 0655. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ANRED                          :
+						<b>Anrede</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000015 Stellen
+							<br />
+							Position in Segment : 026, Offset : 0656. externe L�nge : 000015
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORT02                          :
+						<b>Ortsteil</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 027, Offset : 0671. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						HAUSN                          :
+						<b>Hausnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 028, Offset : 0706. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STOCK                          :
+						<b>Stockwerk</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 029, Offset : 0712. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						REGIO                          :
+						<b>Region</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 030, Offset : 0718. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PARGE                          :
+						<b>Geschlecht des Partners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 031, Offset : 0721. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ISOAL                          :
+						<b>ISO-Code des Landes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 032, Offset : 0722. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ISONU                          :
+						<b>ISO-Code des Landes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 033, Offset : 0724. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FCODE                          :
+						<b>Firmencode Frankreich</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000020 Stellen
+							<br />
+							Position in Segment : 034, Offset : 0726. externe L�nge : 000020
+						</p>
+						<p></p>
+					</li>
+					<li>
+						IHREZ                          :
+						<b>Ihr Zeichen (vom Partner)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 035, Offset : 0746. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						BNAME                          :
+						<b>IDOC Benutzername</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 036, Offset : 0776. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAORG                          :
+						<b>IDOC Organisationscode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 037, Offset : 0811. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ORGTX                          :
+						<b>IDOC Organisationscode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 038, Offset : 0841. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PAGRU                          :
+						<b>IDOC Gruppencode</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 039, Offset : 0876. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDMU5                    STRUCT">E1IDMU5                     : IDOC - Betraege auf Kopfebene (MOA/CUX)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDMU5001
+					freigegeben seit Release 45B , Segmentl�nge : 0121
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						MOAQUAL                        :
+						<b>Qualifier fuer den Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MOABETR                        :
+						<b>Betrag</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000018 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERZ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXWAERQ                       :
+						<b>W�hrung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS                        :
+						<b>Kurs bei W�hrungsumrechnungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXDATUM                       :
+						<b>Datum zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXZEIT                        :
+						<b>Uhrzeit zur Umrechnung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CUXKURS_M                      :
+						<b>Mengennotierter Kurs in einem IDoc-Segment</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000012 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDT02                    STRUCT">E1IDT02                     : EDI IDOC Langtexte</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDT02
+					freigegeben seit Release 30A , Segmentl�nge : 0987
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						TXTVW                          :
+						<b>Text-ID</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXTSP                          :
+						<b>Sprache kurz</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0067. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXTLF                          :
+						<b>Fortsetzungstext (laufende Nummer)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000002 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0068. externe L�nge : 000002
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT01                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0070. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT02                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0140. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT03                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0210. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT04                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0280. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT05                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0350. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT06                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0420. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT07                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0490. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT08                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0560. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT09                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0630. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT10                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0700. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT11                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0770. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT12                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0840. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT13                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0910. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TXT14                          :
+						<b>Textzeile</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0980. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDKU7                    STRUCT">E1IDKU7                     : IDOC - AUTORISIERUNG (AUT)</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDKU7
+					freigegeben seit Release 30A , Segmentl�nge : 0070
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						AUTRESUL                       :
+						<b>Ergebnis der Autorisierung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						AUTKEY                         :
+						<b>Verwendeter Schluessel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0098. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDIBA                    STRUCT">E1IDIBA                     : IDOC SWIFT und IBAN Bankdaten, analog zu Segment E1IDB02</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDIBA000
+					freigegeben seit Release 620 , Segmentl�nge : 0048
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						FIIQUALI                       :
+						<b>Art der Bankverbindung</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						IBAN                           :
+						<b>IBAN (International Bank Account Number)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000034 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000034
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SWIFT_CODE                     :
+						<b>S.W.I.F.T-Code f�r internationale Zahlungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000011 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0100. externe L�nge : 000011
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDS01                    STRUCT">E1IDS01                     : IDOC Direct Debit Mandat Daten</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDS01000
+					freigegeben seit Release 620 , Segmentl�nge : 0721
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALIFIER                      :
+						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MANDATE_ID                     :
+						<b>Mandate in Idoc</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000060 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0067. externe L�nge : 000060
+						</p>
+						<p></p>
+					</li>
+					<li>
+						MANDATE_TYPE                   :
+						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0127. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						VAL_FROM_DATE                  :
+						<b>SEPA: G�ltigkeitsdatum des Mandats (von)</b>
+						<p></p>
+						<p>
+							interner Datentyp : DATS
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0131. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						VAL_TO_DATE                    :
+						<b>SEPA: G�ltigkeitsdatum des Mandats (bis)</b>
+						<p></p>
+						<p>
+							interner Datentyp : DATS
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0139. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SIGN_DATE                      :
+						<b>Datum der Unterschrift</b>
+						<p></p>
+						<p>
+							interner Datentyp : DATS
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0147. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SIGN_CITY                      :
+						<b>Ort der Unterschrift</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0155. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CREDITOR_ID                    :
+						<b>Kreditorkennung (landes�bergreifend eindeutig)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0195. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CREDITOR_NAME1                 :
+						<b>Name 1 der Organisation</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0230. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CREDITOR_NAME2                 :
+						<b>Name 1 der Organisation</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0270. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ULTIMATE_CREDITOR_NAME         :
+						<b>SEPA: Name des abweichenden Zahlungsempf�ngers</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0310. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ULTIMATE_CREDITOR_ID           :
+						<b>SEPA: Identifikation des abweichenden  Zahlungsempf�ngers</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0350. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						AMEND_IND                      :
+						<b>SEPA Amendment-Indikator f�r Mandat</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0420. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						AMENDMENT_REASON_CODE          :
+						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0421. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						B2B                            :
+						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0425. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DEBTOR_NAME1                   :
+						<b>Nachname des Gesch�ftspartners (Person)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0429. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DEBTOR_NAME2                   :
+						<b>Vorname des Gesch�ftspartners (Person)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0469. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DEBTOR_IDENTIFICATION          :
+						<b>Datenelement Typ CHAR L�nge 35</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0509. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						LANGUAGE                       :
+						<b>Sprachenschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : LANG
+							<br />
+							interne L�nge : 000001 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0544. externe L�nge : 000001
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ULTIMATE_DEBTOR_NAME           :
+						<b>SEPA: Name des abweichenden Schuldners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0545. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ULTIMATE_DEBTOR_ID             :
+						<b>SEPA: Identifikation des abweichenden Schuldners</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0585. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CONTRACT_REFERENCE             :
+						<b>SEPA-Mandat: Referenz-ID</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0655. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DEBTOR_IBAN                    :
+						<b>IBAN (International Bank Account Number)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000034 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0725. externe L�nge : 000034
+						</p>
+						<p></p>
+					</li>
+					<li>
+						DEBTOR_SWIFT                   :
+						<b>S.W.I.F.T-Code f�r internationale Zahlungen</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000011 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0759. externe L�nge : 000011
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CHANGE_DATE                    :
+						<b>Datum, an dem das Objekt angelegt wurde</b>
+						<p></p>
+						<p>
+							interner Datentyp : DATS
+							<br />
+							interne L�nge : 000008 Stellen
+							<br />
+							Position in Segment : 025, Offset : 0770. externe L�nge : 000008
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CHANGE_TIME                    :
+						<b>Uhrzeit, zu der das Objekt angelegt wurde</b>
+						<p></p>
+						<p>
+							interner Datentyp : TIMS
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 026, Offset : 0778. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDAD1                    STRUCT">E1IDAD1                     : IDOC Weitere Adressen</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDAD1000
+					freigegeben seit Release 620 , Segmentl�nge : 0686
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						QUALF                          :
+						<b>Feld der Laenge 3 Bytes</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						ANRED                          :
+						<b>Anrede</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000015 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0066. externe L�nge : 000015
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME1                          :
+						<b>Nachname des Gesch�ftspartners (Person)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0081. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME2                          :
+						<b>Vorname des Gesch�ftspartners (Person)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0121. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME3                          :
+						<b>Name 3</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0161. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						NAME4                          :
+						<b>Name 4</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 006, Offset : 0196. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STREET1                        :
+						<b>Stra�e</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000060 Stellen
+							<br />
+							Position in Segment : 007, Offset : 0231. externe L�nge : 000060
+						</p>
+						<p></p>
+					</li>
+					<li>
+						STREET2                        :
+						<b>Stra�e</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000060 Stellen
+							<br />
+							Position in Segment : 008, Offset : 0291. externe L�nge : 000060
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CITY1                          :
+						<b>Ort</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 009, Offset : 0351. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CITY2                          :
+						<b>Ortsteil</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 010, Offset : 0391. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						HAUSN                          :
+						<b>Hausnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000006 Stellen
+							<br />
+							Position in Segment : 011, Offset : 0431. externe L�nge : 000006
+						</p>
+						<p></p>
+					</li>
+					<li>
+						POSTAL_CODE                    :
+						<b>Postleitzahl</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000010 Stellen
+							<br />
+							Position in Segment : 012, Offset : 0437. externe L�nge : 000010
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PSTL2                          :
+						<b>Postleitzahl des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000010 Stellen
+							<br />
+							Position in Segment : 013, Offset : 0447. externe L�nge : 000010
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFACH                          :
+						<b>Postfach</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000010 Stellen
+							<br />
+							Position in Segment : 014, Offset : 0457. externe L�nge : 000010
+						</p>
+						<p></p>
+					</li>
+					<li>
+						PFORT                          :
+						<b>Ort des Postfachs</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000040 Stellen
+							<br />
+							Position in Segment : 015, Offset : 0467. externe L�nge : 000040
+						</p>
+						<p></p>
+					</li>
+					<li>
+						COUNTRY_KEY                    :
+						<b>L�nderschl�ssel</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 016, Offset : 0507. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						REGIO                          :
+						<b>Region (Bundesstaat, Bundesland, Provinz, Grafschaft)</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000003 Stellen
+							<br />
+							Position in Segment : 017, Offset : 0510. externe L�nge : 000003
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELF1                          :
+						<b>Adressen: Telefonnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000030 Stellen
+							<br />
+							Position in Segment : 018, Offset : 0513. externe L�nge : 000030
+						</p>
+						<p></p>
+					</li>
+					<li>
+						TELFX                          :
+						<b>Telefaxnummer</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000031 Stellen
+							<br />
+							Position in Segment : 019, Offset : 0543. externe L�nge : 000031
+						</p>
+						<p></p>
+					</li>
+					<li>
+						IDENTIFICATION_CODE            :
+						<b>Datenelement Typ CHAR L�nge 35</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 020, Offset : 0574. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FURTHER_IDENT_1                :
+						<b>Weitere Identifikation 1</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 021, Offset : 0609. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FURTHER_IDENT_2                :
+						<b>Weitere Identifikation 2</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 022, Offset : 0644. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FURTHER_IDENT_3                :
+						<b>Weitere Identifikation 3</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 023, Offset : 0679. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						FURTHER_IDENT_4                :
+						<b>Weitere Identifikation 4</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 024, Offset : 0714. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDTRA                    STRUCT">E1IDTRA                     : IDOC Transaktionsdaten</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDTRA000
+					freigegeben seit Release 620 , Segmentl�nge : 0117
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						PURPOSE_CODE                   :
+						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						CATEGORY_PURPOSE_CODE          :
+						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 002, Offset : 0067. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						SEQ_TYPE                       :
+						<b>SEPA: Sequenztyp</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000004 Stellen
+							<br />
+							Position in Segment : 003, Offset : 0071. externe L�nge : 000004
+						</p>
+						<p></p>
+					</li>
+					<li>
+						END_TO_END_ID                  :
+						<b>End to End Id</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000035 Stellen
+							<br />
+							Position in Segment : 004, Offset : 0075. externe L�nge : 000035
+						</p>
+						<p></p>
+					</li>
+					<li>
+						INITIATING_PARTY               :
+						<b>Initiating Party</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 000070 Stellen
+							<br />
+							Position in Segment : 005, Offset : 0110. externe L�nge : 000070
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+			</li>
+			<li>
+				<h2>
+					<a name="E1IDDS1                    STRUCT">E1IDDS1                     : IDOC Digital Signature</a>
+				</h2>
+				<p>
+					Segmentdefinition E2IDDS1000
+					freigegeben seit Release 620 , Segmentl�nge : 1000
+				</p>
+				<p></p>
+				<ol>
+					<li>
+						DIGITAL_SIGNATURE              :
+						<b>Idoc Digital Signature</b>
+						<p></p>
+						<p>
+							interner Datentyp : CHAR
+							<br />
+							interne L�nge : 001000 Stellen
+							<br />
+							Position in Segment : 001, Offset : 0063. externe L�nge : 001000
+						</p>
+						<p></p>
+					</li>
+				</ol>
+				<p></p>
+				<p></p>
+			</li>
+		</ul>
+		<hr />
+		<h2>
+			<a name="INFO">Info...</a>
+		</h2>
+		<p>
+			Automatisch erzeugtes HTML-Dokument
+			<br />
+			erstellt am 30.11.2012           um 13:09:47
+			<br />
+			Mandant 831
+			<br />
+			System QF3
+			<br />
+			Release 702
+			<br />
+			Sprache D
+			<br />
+			Transaktion WE60
+		</p>
+		<p>
+			Anzeige f�r Release 702
+			<br />
+			Version 3 der IDoc Satzarten : IDoc Satzarten SAP-Release 4.0
+		</p>
+	</body>
+</html>
