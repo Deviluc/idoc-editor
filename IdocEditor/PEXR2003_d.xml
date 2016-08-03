@@ -3,7 +3,7 @@
 	
 <head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Dokumentation f�r IDoc-Satzarten bzw. IDoctyp</title>
+		<title>Dokumentation für IDoc-Satzarten bzw. IDoctyp</title>
 	</head>
 	
 <body>
@@ -623,7 +623,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU1
-					freigegeben seit Release 30A , Segmentl�nge : 0079
+					freigegeben seit Release 30A , Segmentlänge : 0079
 				</p>
 				<p></p>
 				<ol>
@@ -634,9 +634,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -647,9 +647,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -660,9 +660,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0101. externe L�nge : 000035
+							Position in Segment : 003, Offset : 0101. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -673,22 +673,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0136. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0136. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						BGMACC                         :
-						<b>Best�tigungsstufe (Empfang, Ausf�hrung, beides), codiert</b>
+						<b>Bestätigungsstufe (Empfang, Ausführung, beides), codiert</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0139. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0139. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -703,7 +703,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDK03
-					freigegeben seit Release 30A , Segmentl�nge : 0017
+					freigegeben seit Release 30A , Segmentlänge : 0017
 				</p>
 				<p></p>
 				<ol>
@@ -714,9 +714,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -727,9 +727,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -740,9 +740,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0074. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -757,7 +757,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDK02
-					freigegeben seit Release 30A , Segmentl�nge : 0058
+					freigegeben seit Release 30A , Segmentlänge : 0058
 				</p>
 				<p></p>
 				<ol>
@@ -768,9 +768,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -781,9 +781,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -794,9 +794,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0101. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -807,9 +807,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+							Position in Segment : 004, Offset : 0107. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -820,9 +820,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+							Position in Segment : 005, Offset : 0115. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -837,7 +837,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDK12000
-					freigegeben seit Release 45A , Segmentl�nge : 0058
+					freigegeben seit Release 45A , Segmentlänge : 0058
 				</p>
 				<p></p>
 				<ol>
@@ -848,9 +848,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -861,9 +861,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -874,9 +874,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0101. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -887,9 +887,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+							Position in Segment : 004, Offset : 0107. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -900,9 +900,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+							Position in Segment : 005, Offset : 0115. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -917,7 +917,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU2
-					freigegeben seit Release 30A , Segmentl�nge : 0082
+					freigegeben seit Release 30A , Segmentlänge : 0082
 				</p>
 				<p></p>
 				<ol>
@@ -928,9 +928,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -941,9 +941,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+							Position in Segment : 002, Offset : 0066. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -954,9 +954,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0069. externe L�nge : 000070
+							Position in Segment : 003, Offset : 0069. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -967,9 +967,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0139. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0139. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -980,9 +980,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0142. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0142. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -997,7 +997,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDT01
-					freigegeben seit Release 30A , Segmentl�nge : 0987
+					freigegeben seit Release 30A , Segmentlänge : 0987
 				</p>
 				<p></p>
 				<ol>
@@ -1008,9 +1008,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+							Position in Segment : 001, Offset : 0063. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
@@ -1021,9 +1021,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0067. externe L�nge : 000001
+							Position in Segment : 002, Offset : 0067. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -1034,9 +1034,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0068. externe L�nge : 000002
+							Position in Segment : 003, Offset : 0068. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -1047,9 +1047,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0070. externe L�nge : 000070
+							Position in Segment : 004, Offset : 0070. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1060,9 +1060,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0140. externe L�nge : 000070
+							Position in Segment : 005, Offset : 0140. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1073,9 +1073,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0210. externe L�nge : 000070
+							Position in Segment : 006, Offset : 0210. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1086,9 +1086,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0280. externe L�nge : 000070
+							Position in Segment : 007, Offset : 0280. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1099,9 +1099,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0350. externe L�nge : 000070
+							Position in Segment : 008, Offset : 0350. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1112,9 +1112,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0420. externe L�nge : 000070
+							Position in Segment : 009, Offset : 0420. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1125,9 +1125,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0490. externe L�nge : 000070
+							Position in Segment : 010, Offset : 0490. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1138,9 +1138,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0560. externe L�nge : 000070
+							Position in Segment : 011, Offset : 0560. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1151,9 +1151,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0630. externe L�nge : 000070
+							Position in Segment : 012, Offset : 0630. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1164,9 +1164,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0700. externe L�nge : 000070
+							Position in Segment : 013, Offset : 0700. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1177,9 +1177,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0770. externe L�nge : 000070
+							Position in Segment : 014, Offset : 0770. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1190,9 +1190,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0840. externe L�nge : 000070
+							Position in Segment : 015, Offset : 0840. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1203,9 +1203,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0910. externe L�nge : 000070
+							Position in Segment : 016, Offset : 0910. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1216,9 +1216,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0980. externe L�nge : 000070
+							Position in Segment : 017, Offset : 0980. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1233,7 +1233,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU3002
-					freigegeben seit Release 45A , Segmentl�nge : 0646
+					freigegeben seit Release 45A , Segmentlänge : 0646
 				</p>
 				<p></p>
 				<ol>
@@ -1244,9 +1244,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1257,9 +1257,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+							Position in Segment : 002, Offset : 0066. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1270,9 +1270,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0069. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0069. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1283,22 +1283,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0072. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0072. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						PAIRZAWE                       :
-						<b>Zahlweg f�r diese Regulierung</b>
+						<b>Zahlweg für diese Regulierung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0075. externe L�nge : 000001
+							Position in Segment : 005, Offset : 0075. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -1309,9 +1309,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0076. externe L�nge : 000002
+							Position in Segment : 006, Offset : 0076. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -1322,22 +1322,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0078. externe L�nge : 000004
+							Position in Segment : 007, Offset : 0078. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
 					<li>
 						PAYRUNID                       :
-						<b>Zus�tzliches Identifikationsmerkmal</b>
+						<b>Zusätzliches Identifikationsmerkmal</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0082. externe L�nge : 000006
+							Position in Segment : 008, Offset : 0082. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -1348,9 +1348,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0088. externe L�nge : 000008
+							Position in Segment : 009, Offset : 0088. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -1361,9 +1361,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0096. externe L�nge : 000003
+							Position in Segment : 010, Offset : 0096. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1374,9 +1374,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0099. externe L�nge : 000070
+							Position in Segment : 011, Offset : 0099. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1387,9 +1387,9 @@
 						<p>
 							interner Datentyp : NUMC
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0169. externe L�nge : 000012
+							Position in Segment : 012, Offset : 0169. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1400,9 +1400,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0181. externe L�nge : 000012
+							Position in Segment : 013, Offset : 0181. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1413,9 +1413,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000050 Stellen
+							interne Länge : 000050 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0193. externe L�nge : 000050
+							Position in Segment : 014, Offset : 0193. externe Länge : 000050
 						</p>
 						<p></p>
 					</li>
@@ -1426,9 +1426,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0243. externe L�nge : 000070
+							Position in Segment : 015, Offset : 0243. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1439,9 +1439,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0313. externe L�nge : 000012
+							Position in Segment : 016, Offset : 0313. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1452,9 +1452,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000050 Stellen
+							interne Länge : 000050 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0325. externe L�nge : 000050
+							Position in Segment : 017, Offset : 0325. externe Länge : 000050
 						</p>
 						<p></p>
 					</li>
@@ -1465,9 +1465,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0375. externe L�nge : 000070
+							Position in Segment : 018, Offset : 0375. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1478,9 +1478,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0445. externe L�nge : 000012
+							Position in Segment : 019, Offset : 0445. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1491,9 +1491,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000050 Stellen
+							interne Länge : 000050 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0457. externe L�nge : 000050
+							Position in Segment : 020, Offset : 0457. externe Länge : 000050
 						</p>
 						<p></p>
 					</li>
@@ -1504,9 +1504,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0507. externe L�nge : 000070
+							Position in Segment : 021, Offset : 0507. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1517,9 +1517,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0577. externe L�nge : 000012
+							Position in Segment : 022, Offset : 0577. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1530,9 +1530,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000050 Stellen
+							interne Länge : 000050 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0589. externe L�nge : 000050
+							Position in Segment : 023, Offset : 0589. externe Länge : 000050
 						</p>
 						<p></p>
 					</li>
@@ -1543,9 +1543,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0639. externe L�nge : 000070
+							Position in Segment : 024, Offset : 0639. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1560,7 +1560,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU4
-					freigegeben seit Release 30A , Segmentl�nge : 0056
+					freigegeben seit Release 30A , Segmentlänge : 0056
 				</p>
 				<p></p>
 				<ol>
@@ -1571,9 +1571,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1584,9 +1584,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+							Position in Segment : 002, Offset : 0066. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -1597,35 +1597,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0083. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0083. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						FCAGKNTO                       :
-						<b>Geb�hrenkonto Kontonummer</b>
+						<b>Gebührenkonto Kontonummer</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0086. externe L�nge : 000030
+							Position in Segment : 004, Offset : 0086. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
 					<li>
 						FCAGWAER                       :
-						<b>Geb�hrenkonto W�hrung</b>
+						<b>Gebührenkonto Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0116. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0116. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1640,7 +1640,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU5001
-					freigegeben seit Release 45B , Segmentl�nge : 0121
+					freigegeben seit Release 45B , Segmentlänge : 0121
 				</p>
 				<p></p>
 				<ol>
@@ -1651,9 +1651,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1664,48 +1664,48 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+							Position in Segment : 002, Offset : 0066. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERZ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0084. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERQ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0087. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXKURS                        :
-						<b>Kurs bei W�hrungsumrechnungen</b>
+						<b>Kurs bei Währungsumrechnungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+							Position in Segment : 005, Offset : 0090. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1716,9 +1716,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0102. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -1729,9 +1729,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0137. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -1742,9 +1742,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+							Position in Segment : 008, Offset : 0172. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -1759,7 +1759,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDL03
-					freigegeben seit Release 30A , Segmentl�nge : 0017
+					freigegeben seit Release 30A , Segmentlänge : 0017
 				</p>
 				<p></p>
 				<ol>
@@ -1770,9 +1770,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1783,9 +1783,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -1796,9 +1796,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0074. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -1813,7 +1813,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDL02
-					freigegeben seit Release 30A , Segmentl�nge : 0058
+					freigegeben seit Release 30A , Segmentlänge : 0058
 				</p>
 				<p></p>
 				<ol>
@@ -1824,9 +1824,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1837,9 +1837,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -1850,9 +1850,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0101. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -1863,9 +1863,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+							Position in Segment : 004, Offset : 0107. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -1876,9 +1876,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+							Position in Segment : 005, Offset : 0115. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -1893,7 +1893,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDB02002
-					freigegeben seit Release 45A , Segmentl�nge : 0534
+					freigegeben seit Release 45A , Segmentlänge : 0534
 				</p>
 				<p></p>
 				<ol>
@@ -1904,9 +1904,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1917,9 +1917,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000011 Stellen
+							interne Länge : 000011 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000011
+							Position in Segment : 002, Offset : 0066. externe Länge : 000011
 						</p>
 						<p></p>
 					</li>
@@ -1930,9 +1930,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0077. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0077. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1943,9 +1943,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0080. externe L�nge : 000017
+							Position in Segment : 004, Offset : 0080. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -1956,9 +1956,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0097. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0097. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -1969,9 +1969,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0100. externe L�nge : 000070
+							Position in Segment : 006, Offset : 0100. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1982,9 +1982,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0170. externe L�nge : 000070
+							Position in Segment : 007, Offset : 0170. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -1995,9 +1995,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0240. externe L�nge : 000003
+							Position in Segment : 008, Offset : 0240. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2008,9 +2008,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0243. externe L�nge : 000030
+							Position in Segment : 009, Offset : 0243. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -2021,9 +2021,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0273. externe L�nge : 000035
+							Position in Segment : 010, Offset : 0273. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2034,22 +2034,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0308. externe L�nge : 000035
+							Position in Segment : 011, Offset : 0308. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						FIIKWAER                       :
-						<b>Kontow�hrung</b>
+						<b>Kontowährung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0343. externe L�nge : 000003
+							Position in Segment : 012, Offset : 0343. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2060,9 +2060,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0346. externe L�nge : 000003
+							Position in Segment : 013, Offset : 0346. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2073,9 +2073,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0349. externe L�nge : 000035
+							Position in Segment : 014, Offset : 0349. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2086,9 +2086,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0384. externe L�nge : 000025
+							Position in Segment : 015, Offset : 0384. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2099,9 +2099,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0409. externe L�nge : 000003
+							Position in Segment : 016, Offset : 0409. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2112,9 +2112,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0412. externe L�nge : 000025
+							Position in Segment : 017, Offset : 0412. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2125,9 +2125,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0437. externe L�nge : 000003
+							Position in Segment : 018, Offset : 0437. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2138,9 +2138,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0440. externe L�nge : 000025
+							Position in Segment : 019, Offset : 0440. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2151,9 +2151,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0465. externe L�nge : 000003
+							Position in Segment : 020, Offset : 0465. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2164,9 +2164,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0468. externe L�nge : 000025
+							Position in Segment : 021, Offset : 0468. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2177,9 +2177,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0493. externe L�nge : 000003
+							Position in Segment : 022, Offset : 0493. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2190,9 +2190,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0496. externe L�nge : 000025
+							Position in Segment : 023, Offset : 0496. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2203,22 +2203,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0521. externe L�nge : 000003
+							Position in Segment : 024, Offset : 0521. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						FIIBKONT                       :
-						<b>Bankenkontrollschl�ssel</b>
+						<b>Bankenkontrollschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 025, Offset : 0524. externe L�nge : 000002
+							Position in Segment : 025, Offset : 0524. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -2229,9 +2229,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 026, Offset : 0526. externe L�nge : 000001
+							Position in Segment : 026, Offset : 0526. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -2242,9 +2242,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 027, Offset : 0527. externe L�nge : 000070
+							Position in Segment : 027, Offset : 0527. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -2259,7 +2259,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDBL2000
-					freigegeben seit Release 45A , Segmentl�nge : 0534
+					freigegeben seit Release 45A , Segmentlänge : 0534
 				</p>
 				<p></p>
 				<ol>
@@ -2270,9 +2270,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2283,9 +2283,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000011 Stellen
+							interne Länge : 000011 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000011
+							Position in Segment : 002, Offset : 0066. externe Länge : 000011
 						</p>
 						<p></p>
 					</li>
@@ -2296,9 +2296,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0077. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0077. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2309,9 +2309,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0080. externe L�nge : 000017
+							Position in Segment : 004, Offset : 0080. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -2322,9 +2322,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0097. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0097. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2335,9 +2335,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0100. externe L�nge : 000070
+							Position in Segment : 006, Offset : 0100. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -2348,9 +2348,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0170. externe L�nge : 000070
+							Position in Segment : 007, Offset : 0170. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -2361,9 +2361,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0240. externe L�nge : 000003
+							Position in Segment : 008, Offset : 0240. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2374,9 +2374,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0243. externe L�nge : 000030
+							Position in Segment : 009, Offset : 0243. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -2387,9 +2387,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0273. externe L�nge : 000035
+							Position in Segment : 010, Offset : 0273. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2400,22 +2400,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0308. externe L�nge : 000035
+							Position in Segment : 011, Offset : 0308. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						FIIKWAER                       :
-						<b>Kontow�hrung</b>
+						<b>Kontowährung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0343. externe L�nge : 000003
+							Position in Segment : 012, Offset : 0343. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2426,9 +2426,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0346. externe L�nge : 000003
+							Position in Segment : 013, Offset : 0346. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2439,9 +2439,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0349. externe L�nge : 000035
+							Position in Segment : 014, Offset : 0349. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2452,9 +2452,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0384. externe L�nge : 000025
+							Position in Segment : 015, Offset : 0384. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2465,9 +2465,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0409. externe L�nge : 000003
+							Position in Segment : 016, Offset : 0409. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2478,9 +2478,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0412. externe L�nge : 000025
+							Position in Segment : 017, Offset : 0412. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2491,9 +2491,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0437. externe L�nge : 000003
+							Position in Segment : 018, Offset : 0437. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2504,9 +2504,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0440. externe L�nge : 000025
+							Position in Segment : 019, Offset : 0440. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2517,9 +2517,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0465. externe L�nge : 000003
+							Position in Segment : 020, Offset : 0465. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2530,9 +2530,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0468. externe L�nge : 000025
+							Position in Segment : 021, Offset : 0468. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2543,9 +2543,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0493. externe L�nge : 000003
+							Position in Segment : 022, Offset : 0493. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2556,9 +2556,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0496. externe L�nge : 000025
+							Position in Segment : 023, Offset : 0496. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2569,22 +2569,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0521. externe L�nge : 000003
+							Position in Segment : 024, Offset : 0521. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						FIIBKONT                       :
-						<b>Bankenkontrollschl�ssel</b>
+						<b>Bankenkontrollschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 025, Offset : 0524. externe L�nge : 000002
+							Position in Segment : 025, Offset : 0524. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -2595,9 +2595,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 026, Offset : 0526. externe L�nge : 000001
+							Position in Segment : 026, Offset : 0526. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -2608,9 +2608,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 027, Offset : 0527. externe L�nge : 000070
+							Position in Segment : 027, Offset : 0527. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -2625,20 +2625,20 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDKA1003
-					freigegeben seit Release 45A , Segmentl�nge : 0995
+					freigegeben seit Release 45A , Segmentlänge : 0995
 				</p>
 				<p></p>
 				<ol>
 					<li>
 						PARVW                          :
-						<b>Partnerrolle (z.B. Auftraggeber, Warenempf�nger, ...)</b>
+						<b>Partnerrolle (z.B. Auftraggeber, Warenempfänger, ...)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2649,9 +2649,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+							Position in Segment : 002, Offset : 0066. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -2662,9 +2662,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0083. externe L�nge : 000017
+							Position in Segment : 003, Offset : 0083. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -2675,9 +2675,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0100. externe L�nge : 000035
+							Position in Segment : 004, Offset : 0100. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2688,9 +2688,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0135. externe L�nge : 000035
+							Position in Segment : 005, Offset : 0135. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2701,9 +2701,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0170. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0170. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2714,35 +2714,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0205. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0205. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STRAS                          :
-						<b>Stra�e und Hausnummer 1</b>
+						<b>Straße und Hausnummer 1</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0240. externe L�nge : 000035
+							Position in Segment : 008, Offset : 0240. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STRS2                          :
-						<b>Stra�e und Hausnummer 2</b>
+						<b>Straße und Hausnummer 2</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0275. externe L�nge : 000035
+							Position in Segment : 009, Offset : 0275. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2753,9 +2753,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0310. externe L�nge : 000035
+							Position in Segment : 010, Offset : 0310. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2766,9 +2766,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0345. externe L�nge : 000035
+							Position in Segment : 011, Offset : 0345. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2779,9 +2779,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0380. externe L�nge : 000009
+							Position in Segment : 012, Offset : 0380. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
@@ -2792,9 +2792,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0389. externe L�nge : 000009
+							Position in Segment : 013, Offset : 0389. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
@@ -2805,22 +2805,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0398. externe L�nge : 000009
+							Position in Segment : 014, Offset : 0398. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
 					<li>
 						LAND1                          :
-						<b>L�nderschl�ssel</b>
+						<b>Länderschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0407. externe L�nge : 000003
+							Position in Segment : 015, Offset : 0407. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -2831,9 +2831,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0410. externe L�nge : 000035
+							Position in Segment : 016, Offset : 0410. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2844,9 +2844,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0445. externe L�nge : 000030
+							Position in Segment : 017, Offset : 0445. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -2857,9 +2857,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0475. externe L�nge : 000030
+							Position in Segment : 018, Offset : 0475. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -2870,9 +2870,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0505. externe L�nge : 000025
+							Position in Segment : 019, Offset : 0505. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2883,9 +2883,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0530. externe L�nge : 000025
+							Position in Segment : 020, Offset : 0530. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2896,9 +2896,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0555. externe L�nge : 000025
+							Position in Segment : 021, Offset : 0555. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2909,9 +2909,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0580. externe L�nge : 000025
+							Position in Segment : 022, Offset : 0580. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2922,9 +2922,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0605. externe L�nge : 000025
+							Position in Segment : 023, Offset : 0605. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -2935,22 +2935,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0630. externe L�nge : 000025
+							Position in Segment : 024, Offset : 0630. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
 					<li>
 						SPRAS                          :
-						<b>Sprachenschl�ssel</b>
+						<b>Sprachenschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 025, Offset : 0655. externe L�nge : 000001
+							Position in Segment : 025, Offset : 0655. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -2961,9 +2961,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000015 Stellen
+							interne Länge : 000015 Stellen
 							<br />
-							Position in Segment : 026, Offset : 0656. externe L�nge : 000015
+							Position in Segment : 026, Offset : 0656. externe Länge : 000015
 						</p>
 						<p></p>
 					</li>
@@ -2974,9 +2974,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 027, Offset : 0671. externe L�nge : 000035
+							Position in Segment : 027, Offset : 0671. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -2987,9 +2987,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 028, Offset : 0706. externe L�nge : 000006
+							Position in Segment : 028, Offset : 0706. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -3000,9 +3000,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 029, Offset : 0712. externe L�nge : 000006
+							Position in Segment : 029, Offset : 0712. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -3013,9 +3013,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 030, Offset : 0718. externe L�nge : 000003
+							Position in Segment : 030, Offset : 0718. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3026,9 +3026,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 031, Offset : 0721. externe L�nge : 000001
+							Position in Segment : 031, Offset : 0721. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -3039,9 +3039,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 032, Offset : 0722. externe L�nge : 000002
+							Position in Segment : 032, Offset : 0722. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -3052,9 +3052,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 033, Offset : 0724. externe L�nge : 000002
+							Position in Segment : 033, Offset : 0724. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -3065,9 +3065,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000020 Stellen
+							interne Länge : 000020 Stellen
 							<br />
-							Position in Segment : 034, Offset : 0726. externe L�nge : 000020
+							Position in Segment : 034, Offset : 0726. externe Länge : 000020
 						</p>
 						<p></p>
 					</li>
@@ -3078,9 +3078,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 035, Offset : 0746. externe L�nge : 000030
+							Position in Segment : 035, Offset : 0746. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -3091,9 +3091,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 036, Offset : 0776. externe L�nge : 000035
+							Position in Segment : 036, Offset : 0776. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3104,9 +3104,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 037, Offset : 0811. externe L�nge : 000030
+							Position in Segment : 037, Offset : 0811. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -3117,9 +3117,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 038, Offset : 0841. externe L�nge : 000035
+							Position in Segment : 038, Offset : 0841. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3130,35 +3130,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 039, Offset : 0876. externe L�nge : 000030
+							Position in Segment : 039, Offset : 0876. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
 					<li>
 						KNREF                          :
-						<b>Kundenindividuelle Bez. des Gesch�ftspartners (Werk, Lager)</b>
+						<b>Kundenindividuelle Bez. des Geschäftspartners (Werk, Lager)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 040, Offset : 0906. externe L�nge : 000030
+							Position in Segment : 040, Offset : 0906. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
 					<li>
 						ILNNR                          :
-						<b>Characterfeld der L�nge 70</b>
+						<b>Characterfeld der Länge 70</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 041, Offset : 0936. externe L�nge : 000070
+							Position in Segment : 041, Offset : 0936. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -3169,9 +3169,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 042, Offset : 1006. externe L�nge : 000035
+							Position in Segment : 042, Offset : 1006. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3182,9 +3182,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 043, Offset : 1041. externe L�nge : 000002
+							Position in Segment : 043, Offset : 1041. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -3195,9 +3195,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000015 Stellen
+							interne Länge : 000015 Stellen
 							<br />
-							Position in Segment : 044, Offset : 1043. externe L�nge : 000015
+							Position in Segment : 044, Offset : 1043. externe Länge : 000015
 						</p>
 						<p></p>
 					</li>
@@ -3212,7 +3212,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDBW1
-					freigegeben seit Release 30A , Segmentl�nge : 0362
+					freigegeben seit Release 30A , Segmentlänge : 0362
 				</p>
 				<p></p>
 				<ol>
@@ -3223,9 +3223,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3236,9 +3236,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+							Position in Segment : 002, Offset : 0066. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3249,9 +3249,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0069. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0069. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3262,9 +3262,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0072. externe L�nge : 000070
+							Position in Segment : 004, Offset : 0072. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -3275,9 +3275,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0142. externe L�nge : 000070
+							Position in Segment : 005, Offset : 0142. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -3288,9 +3288,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0212. externe L�nge : 000070
+							Position in Segment : 006, Offset : 0212. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -3301,9 +3301,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0282. externe L�nge : 000070
+							Position in Segment : 007, Offset : 0282. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -3314,9 +3314,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0352. externe L�nge : 000070
+							Position in Segment : 008, Offset : 0352. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -3327,9 +3327,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0422. externe L�nge : 000003
+							Position in Segment : 009, Offset : 0422. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3344,7 +3344,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDM03
-					freigegeben seit Release 30A , Segmentl�nge : 0019
+					freigegeben seit Release 30A , Segmentlänge : 0019
 				</p>
 				<p></p>
 				<ol>
@@ -3355,9 +3355,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3368,9 +3368,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -3381,9 +3381,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000008
+							Position in Segment : 003, Offset : 0074. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -3398,7 +3398,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDPU1
-					freigegeben seit Release 30A , Segmentl�nge : 0079
+					freigegeben seit Release 30A , Segmentlänge : 0079
 				</p>
 				<p></p>
 				<ol>
@@ -3409,9 +3409,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3422,9 +3422,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3435,9 +3435,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0101. externe L�nge : 000035
+							Position in Segment : 003, Offset : 0101. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3448,9 +3448,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0136. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0136. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3461,9 +3461,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0139. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0139. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3478,7 +3478,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDPU5001
-					freigegeben seit Release 45B , Segmentl�nge : 0121
+					freigegeben seit Release 45B , Segmentlänge : 0121
 				</p>
 				<p></p>
 				<ol>
@@ -3489,9 +3489,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3502,48 +3502,48 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+							Position in Segment : 002, Offset : 0066. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERZ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0084. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERQ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0087. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXKURS                        :
-						<b>Kurs bei W�hrungsumrechnungen</b>
+						<b>Kurs bei Währungsumrechnungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+							Position in Segment : 005, Offset : 0090. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -3554,9 +3554,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0102. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3567,9 +3567,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0137. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3580,9 +3580,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+							Position in Segment : 008, Offset : 0172. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -3597,7 +3597,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDU03
-					freigegeben seit Release 30A , Segmentl�nge : 0017
+					freigegeben seit Release 30A , Segmentlänge : 0017
 				</p>
 				<p></p>
 				<ol>
@@ -3608,9 +3608,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3621,9 +3621,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -3634,9 +3634,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0074. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -3651,20 +3651,20 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDPA1003
-					freigegeben seit Release 45A , Segmentl�nge : 0995
+					freigegeben seit Release 45A , Segmentlänge : 0995
 				</p>
 				<p></p>
 				<ol>
 					<li>
 						PARVW                          :
-						<b>Partnerrolle (z.B. Auftraggeber, Warenempf�nger, ...)</b>
+						<b>Partnerrolle (z.B. Auftraggeber, Warenempfänger, ...)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3675,9 +3675,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+							Position in Segment : 002, Offset : 0066. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -3688,9 +3688,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0083. externe L�nge : 000017
+							Position in Segment : 003, Offset : 0083. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -3701,9 +3701,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0100. externe L�nge : 000035
+							Position in Segment : 004, Offset : 0100. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3714,9 +3714,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0135. externe L�nge : 000035
+							Position in Segment : 005, Offset : 0135. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3727,9 +3727,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0170. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0170. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3740,35 +3740,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0205. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0205. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STRAS                          :
-						<b>Stra�e und Hausnummer 1</b>
+						<b>Straße und Hausnummer 1</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0240. externe L�nge : 000035
+							Position in Segment : 008, Offset : 0240. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STRS2                          :
-						<b>Stra�e und Hausnummer 2</b>
+						<b>Straße und Hausnummer 2</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0275. externe L�nge : 000035
+							Position in Segment : 009, Offset : 0275. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3779,9 +3779,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0310. externe L�nge : 000035
+							Position in Segment : 010, Offset : 0310. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3792,9 +3792,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0345. externe L�nge : 000035
+							Position in Segment : 011, Offset : 0345. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3805,9 +3805,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0380. externe L�nge : 000009
+							Position in Segment : 012, Offset : 0380. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
@@ -3818,9 +3818,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0389. externe L�nge : 000009
+							Position in Segment : 013, Offset : 0389. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
@@ -3831,22 +3831,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0398. externe L�nge : 000009
+							Position in Segment : 014, Offset : 0398. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
 					<li>
 						LAND1                          :
-						<b>L�nderschl�ssel</b>
+						<b>Länderschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0407. externe L�nge : 000003
+							Position in Segment : 015, Offset : 0407. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -3857,9 +3857,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0410. externe L�nge : 000035
+							Position in Segment : 016, Offset : 0410. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -3870,9 +3870,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0445. externe L�nge : 000030
+							Position in Segment : 017, Offset : 0445. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -3883,9 +3883,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0475. externe L�nge : 000030
+							Position in Segment : 018, Offset : 0475. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -3896,9 +3896,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0505. externe L�nge : 000025
+							Position in Segment : 019, Offset : 0505. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -3909,9 +3909,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0530. externe L�nge : 000025
+							Position in Segment : 020, Offset : 0530. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -3922,9 +3922,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0555. externe L�nge : 000025
+							Position in Segment : 021, Offset : 0555. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -3935,9 +3935,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0580. externe L�nge : 000025
+							Position in Segment : 022, Offset : 0580. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -3948,9 +3948,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0605. externe L�nge : 000025
+							Position in Segment : 023, Offset : 0605. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -3961,22 +3961,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0630. externe L�nge : 000025
+							Position in Segment : 024, Offset : 0630. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
 					<li>
 						SPRAS                          :
-						<b>Sprachenschl�ssel</b>
+						<b>Sprachenschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 025, Offset : 0655. externe L�nge : 000001
+							Position in Segment : 025, Offset : 0655. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -3987,9 +3987,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000015 Stellen
+							interne Länge : 000015 Stellen
 							<br />
-							Position in Segment : 026, Offset : 0656. externe L�nge : 000015
+							Position in Segment : 026, Offset : 0656. externe Länge : 000015
 						</p>
 						<p></p>
 					</li>
@@ -4000,9 +4000,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 027, Offset : 0671. externe L�nge : 000035
+							Position in Segment : 027, Offset : 0671. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4013,9 +4013,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 028, Offset : 0706. externe L�nge : 000006
+							Position in Segment : 028, Offset : 0706. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4026,9 +4026,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 029, Offset : 0712. externe L�nge : 000006
+							Position in Segment : 029, Offset : 0712. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4039,9 +4039,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 030, Offset : 0718. externe L�nge : 000003
+							Position in Segment : 030, Offset : 0718. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4052,9 +4052,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 031, Offset : 0721. externe L�nge : 000001
+							Position in Segment : 031, Offset : 0721. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -4065,9 +4065,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 032, Offset : 0722. externe L�nge : 000002
+							Position in Segment : 032, Offset : 0722. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -4078,9 +4078,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 033, Offset : 0724. externe L�nge : 000002
+							Position in Segment : 033, Offset : 0724. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -4091,9 +4091,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000020 Stellen
+							interne Länge : 000020 Stellen
 							<br />
-							Position in Segment : 034, Offset : 0726. externe L�nge : 000020
+							Position in Segment : 034, Offset : 0726. externe Länge : 000020
 						</p>
 						<p></p>
 					</li>
@@ -4104,9 +4104,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 035, Offset : 0746. externe L�nge : 000030
+							Position in Segment : 035, Offset : 0746. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -4117,9 +4117,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 036, Offset : 0776. externe L�nge : 000035
+							Position in Segment : 036, Offset : 0776. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4130,9 +4130,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 037, Offset : 0811. externe L�nge : 000030
+							Position in Segment : 037, Offset : 0811. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -4143,9 +4143,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 038, Offset : 0841. externe L�nge : 000035
+							Position in Segment : 038, Offset : 0841. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4156,35 +4156,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 039, Offset : 0876. externe L�nge : 000030
+							Position in Segment : 039, Offset : 0876. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
 					<li>
 						KNREF                          :
-						<b>Kundenindividuelle Bez. des Gesch�ftspartners (Werk, Lager)</b>
+						<b>Kundenindividuelle Bez. des Geschäftspartners (Werk, Lager)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 040, Offset : 0906. externe L�nge : 000030
+							Position in Segment : 040, Offset : 0906. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
 					<li>
 						ILNNR                          :
-						<b>Characterfeld der L�nge 70</b>
+						<b>Characterfeld der Länge 70</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 041, Offset : 0936. externe L�nge : 000070
+							Position in Segment : 041, Offset : 0936. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -4195,9 +4195,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 042, Offset : 1006. externe L�nge : 000035
+							Position in Segment : 042, Offset : 1006. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4208,9 +4208,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 043, Offset : 1041. externe L�nge : 000002
+							Position in Segment : 043, Offset : 1041. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -4221,9 +4221,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000015 Stellen
+							interne Länge : 000015 Stellen
 							<br />
-							Position in Segment : 044, Offset : 1043. externe L�nge : 000015
+							Position in Segment : 044, Offset : 1043. externe Länge : 000015
 						</p>
 						<p></p>
 					</li>
@@ -4238,7 +4238,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDK14
-					freigegeben seit Release 30A , Segmentl�nge : 0038
+					freigegeben seit Release 30A , Segmentlänge : 0038
 				</p>
 				<p></p>
 				<ol>
@@ -4249,9 +4249,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4262,9 +4262,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4279,7 +4279,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDP03
-					freigegeben seit Release 30A , Segmentl�nge : 0017
+					freigegeben seit Release 30A , Segmentlänge : 0017
 				</p>
 				<p></p>
 				<ol>
@@ -4290,9 +4290,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4303,9 +4303,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -4316,9 +4316,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0074. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4333,7 +4333,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDP02001
-					freigegeben seit Release 40A , Segmentl�nge : 0123
+					freigegeben seit Release 40A , Segmentlänge : 0123
 				</p>
 				<p></p>
 				<ol>
@@ -4344,9 +4344,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4357,9 +4357,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4370,9 +4370,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0101. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0101. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4383,9 +4383,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0107. externe L�nge : 000008
+							Position in Segment : 004, Offset : 0107. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -4396,9 +4396,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0115. externe L�nge : 000006
+							Position in Segment : 005, Offset : 0115. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4409,9 +4409,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0121. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0121. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4422,9 +4422,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0156. externe L�nge : 000030
+							Position in Segment : 007, Offset : 0156. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -4439,7 +4439,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDPU2
-					freigegeben seit Release 30A , Segmentl�nge : 0068
+					freigegeben seit Release 30A , Segmentlänge : 0068
 				</p>
 				<p></p>
 				<ol>
@@ -4450,9 +4450,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4463,9 +4463,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000006
+							Position in Segment : 002, Offset : 0066. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4476,22 +4476,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0072. externe L�nge : 000018
+							Position in Segment : 003, Offset : 0072. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						MOAWAERS                       :
-						<b>W�hrung zum Abzugsbetrag</b>
+						<b>Währung zum Abzugsbetrag</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0090. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0090. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4502,9 +4502,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0093. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0093. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4515,9 +4515,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0096. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0096. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4532,7 +4532,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDPU3
-					freigegeben seit Release 30A , Segmentl�nge : 0009
+					freigegeben seit Release 30A , Segmentlänge : 0009
 				</p>
 				<p></p>
 				<ol>
@@ -4543,9 +4543,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4556,9 +4556,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000006
+							Position in Segment : 002, Offset : 0066. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4573,7 +4573,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDUU5001
-					freigegeben seit Release 45B , Segmentl�nge : 0121
+					freigegeben seit Release 45B , Segmentlänge : 0121
 				</p>
 				<p></p>
 				<ol>
@@ -4584,9 +4584,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4597,48 +4597,48 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+							Position in Segment : 002, Offset : 0066. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERZ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0084. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERQ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0087. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXKURS                        :
-						<b>Kurs bei W�hrungsumrechnungen</b>
+						<b>Kurs bei Währungsumrechnungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+							Position in Segment : 005, Offset : 0090. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -4649,9 +4649,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0102. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4662,9 +4662,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0137. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4675,9 +4675,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+							Position in Segment : 008, Offset : 0172. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -4692,7 +4692,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDV03
-					freigegeben seit Release 30A , Segmentl�nge : 0017
+					freigegeben seit Release 30A , Segmentlänge : 0017
 				</p>
 				<p></p>
 				<ol>
@@ -4703,9 +4703,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4716,9 +4716,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -4729,9 +4729,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0074. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4746,7 +4746,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDUU4
-					freigegeben seit Release 30A , Segmentl�nge : 0038
+					freigegeben seit Release 30A , Segmentlänge : 0038
 				</p>
 				<p></p>
 				<ol>
@@ -4757,9 +4757,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4770,9 +4770,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0066. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4787,7 +4787,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDW03
-					freigegeben seit Release 30A , Segmentl�nge : 0017
+					freigegeben seit Release 30A , Segmentlänge : 0017
 				</p>
 				<p></p>
 				<ol>
@@ -4798,9 +4798,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4811,9 +4811,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000008
+							Position in Segment : 002, Offset : 0066. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -4824,9 +4824,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0074. externe L�nge : 000006
+							Position in Segment : 003, Offset : 0074. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4841,7 +4841,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDUU2
-					freigegeben seit Release 30A , Segmentl�nge : 0068
+					freigegeben seit Release 30A , Segmentlänge : 0068
 				</p>
 				<p></p>
 				<ol>
@@ -4852,9 +4852,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4865,9 +4865,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000006
+							Position in Segment : 002, Offset : 0066. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -4878,22 +4878,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0072. externe L�nge : 000018
+							Position in Segment : 003, Offset : 0072. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						MOAWAERS                       :
-						<b>W�hrung zum Abzugsbetrag</b>
+						<b>Währung zum Abzugsbetrag</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0090. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0090. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4904,9 +4904,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0093. externe L�nge : 000003
+							Position in Segment : 005, Offset : 0093. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4917,9 +4917,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0096. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0096. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -4934,7 +4934,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDLU5001
-					freigegeben seit Release 45B , Segmentl�nge : 0121
+					freigegeben seit Release 45B , Segmentlänge : 0121
 				</p>
 				<p></p>
 				<ol>
@@ -4945,9 +4945,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -4958,48 +4958,48 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+							Position in Segment : 002, Offset : 0066. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERZ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0084. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERQ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0087. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXKURS                        :
-						<b>Kurs bei W�hrungsumrechnungen</b>
+						<b>Kurs bei Währungsumrechnungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+							Position in Segment : 005, Offset : 0090. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -5010,9 +5010,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0102. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5023,9 +5023,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0137. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5036,9 +5036,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+							Position in Segment : 008, Offset : 0172. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -5053,7 +5053,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU6
-					freigegeben seit Release 30A , Segmentl�nge : 0006
+					freigegeben seit Release 30A , Segmentlänge : 0006
 				</p>
 				<p></p>
 				<ol>
@@ -5064,9 +5064,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -5077,9 +5077,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000003
+							Position in Segment : 002, Offset : 0066. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -5094,20 +5094,20 @@
 				</h2>
 				<p>
 					Segmentdefinition E2EDLA1
-					freigegeben seit Release 30A , Segmentl�nge : 0843
+					freigegeben seit Release 30A , Segmentlänge : 0843
 				</p>
 				<p></p>
 				<ol>
 					<li>
 						PARVW                          :
-						<b>Partnerrolle (z.B. Auftraggeber, Warenempf�nger, ...)</b>
+						<b>Partnerrolle (z.B. Auftraggeber, Warenempfänger, ...)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -5118,9 +5118,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000017
+							Position in Segment : 002, Offset : 0066. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -5131,9 +5131,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000017 Stellen
+							interne Länge : 000017 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0083. externe L�nge : 000017
+							Position in Segment : 003, Offset : 0083. externe Länge : 000017
 						</p>
 						<p></p>
 					</li>
@@ -5144,9 +5144,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0100. externe L�nge : 000035
+							Position in Segment : 004, Offset : 0100. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5157,9 +5157,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0135. externe L�nge : 000035
+							Position in Segment : 005, Offset : 0135. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5170,9 +5170,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0170. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0170. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5183,35 +5183,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0205. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0205. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STRAS                          :
-						<b>Stra�e und Hausnummer 1</b>
+						<b>Straße und Hausnummer 1</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0240. externe L�nge : 000035
+							Position in Segment : 008, Offset : 0240. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STRS2                          :
-						<b>Stra�e und Hausnummer 2</b>
+						<b>Straße und Hausnummer 2</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0275. externe L�nge : 000035
+							Position in Segment : 009, Offset : 0275. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5222,9 +5222,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0310. externe L�nge : 000035
+							Position in Segment : 010, Offset : 0310. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5235,9 +5235,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0345. externe L�nge : 000035
+							Position in Segment : 011, Offset : 0345. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5248,9 +5248,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0380. externe L�nge : 000009
+							Position in Segment : 012, Offset : 0380. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
@@ -5261,9 +5261,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0389. externe L�nge : 000009
+							Position in Segment : 013, Offset : 0389. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
@@ -5274,22 +5274,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000009 Stellen
+							interne Länge : 000009 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0398. externe L�nge : 000009
+							Position in Segment : 014, Offset : 0398. externe Länge : 000009
 						</p>
 						<p></p>
 					</li>
 					<li>
 						LAND1                          :
-						<b>L�nderschl�ssel</b>
+						<b>Länderschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0407. externe L�nge : 000003
+							Position in Segment : 015, Offset : 0407. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -5300,9 +5300,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0410. externe L�nge : 000035
+							Position in Segment : 016, Offset : 0410. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5313,9 +5313,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0445. externe L�nge : 000030
+							Position in Segment : 017, Offset : 0445. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -5326,9 +5326,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0475. externe L�nge : 000030
+							Position in Segment : 018, Offset : 0475. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -5339,9 +5339,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0505. externe L�nge : 000025
+							Position in Segment : 019, Offset : 0505. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -5352,9 +5352,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0530. externe L�nge : 000025
+							Position in Segment : 020, Offset : 0530. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -5365,9 +5365,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0555. externe L�nge : 000025
+							Position in Segment : 021, Offset : 0555. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -5378,9 +5378,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0580. externe L�nge : 000025
+							Position in Segment : 022, Offset : 0580. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -5391,9 +5391,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0605. externe L�nge : 000025
+							Position in Segment : 023, Offset : 0605. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
@@ -5404,22 +5404,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000025 Stellen
+							interne Länge : 000025 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0630. externe L�nge : 000025
+							Position in Segment : 024, Offset : 0630. externe Länge : 000025
 						</p>
 						<p></p>
 					</li>
 					<li>
 						SPRAS                          :
-						<b>Sprachenschl�ssel</b>
+						<b>Sprachenschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 025, Offset : 0655. externe L�nge : 000001
+							Position in Segment : 025, Offset : 0655. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -5430,9 +5430,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000015 Stellen
+							interne Länge : 000015 Stellen
 							<br />
-							Position in Segment : 026, Offset : 0656. externe L�nge : 000015
+							Position in Segment : 026, Offset : 0656. externe Länge : 000015
 						</p>
 						<p></p>
 					</li>
@@ -5443,9 +5443,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 027, Offset : 0671. externe L�nge : 000035
+							Position in Segment : 027, Offset : 0671. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5456,9 +5456,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 028, Offset : 0706. externe L�nge : 000006
+							Position in Segment : 028, Offset : 0706. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -5469,9 +5469,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 029, Offset : 0712. externe L�nge : 000006
+							Position in Segment : 029, Offset : 0712. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -5482,9 +5482,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 030, Offset : 0718. externe L�nge : 000003
+							Position in Segment : 030, Offset : 0718. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -5495,9 +5495,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 031, Offset : 0721. externe L�nge : 000001
+							Position in Segment : 031, Offset : 0721. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -5508,9 +5508,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 032, Offset : 0722. externe L�nge : 000002
+							Position in Segment : 032, Offset : 0722. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -5521,9 +5521,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 033, Offset : 0724. externe L�nge : 000002
+							Position in Segment : 033, Offset : 0724. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -5534,9 +5534,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000020 Stellen
+							interne Länge : 000020 Stellen
 							<br />
-							Position in Segment : 034, Offset : 0726. externe L�nge : 000020
+							Position in Segment : 034, Offset : 0726. externe Länge : 000020
 						</p>
 						<p></p>
 					</li>
@@ -5547,9 +5547,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 035, Offset : 0746. externe L�nge : 000030
+							Position in Segment : 035, Offset : 0746. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -5560,9 +5560,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 036, Offset : 0776. externe L�nge : 000035
+							Position in Segment : 036, Offset : 0776. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5573,9 +5573,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 037, Offset : 0811. externe L�nge : 000030
+							Position in Segment : 037, Offset : 0811. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -5586,9 +5586,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 038, Offset : 0841. externe L�nge : 000035
+							Position in Segment : 038, Offset : 0841. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5599,9 +5599,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 039, Offset : 0876. externe L�nge : 000030
+							Position in Segment : 039, Offset : 0876. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -5616,7 +5616,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDMU5001
-					freigegeben seit Release 45B , Segmentl�nge : 0121
+					freigegeben seit Release 45B , Segmentlänge : 0121
 				</p>
 				<p></p>
 				<ol>
@@ -5627,9 +5627,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -5640,48 +5640,48 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000018 Stellen
+							interne Länge : 000018 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000018
+							Position in Segment : 002, Offset : 0066. externe Länge : 000018
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERZ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0084. externe L�nge : 000003
+							Position in Segment : 003, Offset : 0084. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXWAERQ                       :
-						<b>W�hrung</b>
+						<b>Währung</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0087. externe L�nge : 000003
+							Position in Segment : 004, Offset : 0087. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CUXKURS                        :
-						<b>Kurs bei W�hrungsumrechnungen</b>
+						<b>Kurs bei Währungsumrechnungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0090. externe L�nge : 000012
+							Position in Segment : 005, Offset : 0090. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -5692,9 +5692,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0102. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0102. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5705,9 +5705,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0137. externe L�nge : 000035
+							Position in Segment : 007, Offset : 0137. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5718,9 +5718,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000012 Stellen
+							interne Länge : 000012 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0172. externe L�nge : 000012
+							Position in Segment : 008, Offset : 0172. externe Länge : 000012
 						</p>
 						<p></p>
 					</li>
@@ -5735,7 +5735,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDT02
-					freigegeben seit Release 30A , Segmentl�nge : 0987
+					freigegeben seit Release 30A , Segmentlänge : 0987
 				</p>
 				<p></p>
 				<ol>
@@ -5746,9 +5746,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+							Position in Segment : 001, Offset : 0063. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
@@ -5759,9 +5759,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0067. externe L�nge : 000001
+							Position in Segment : 002, Offset : 0067. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -5772,9 +5772,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000002 Stellen
+							interne Länge : 000002 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0068. externe L�nge : 000002
+							Position in Segment : 003, Offset : 0068. externe Länge : 000002
 						</p>
 						<p></p>
 					</li>
@@ -5785,9 +5785,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0070. externe L�nge : 000070
+							Position in Segment : 004, Offset : 0070. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5798,9 +5798,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0140. externe L�nge : 000070
+							Position in Segment : 005, Offset : 0140. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5811,9 +5811,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0210. externe L�nge : 000070
+							Position in Segment : 006, Offset : 0210. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5824,9 +5824,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0280. externe L�nge : 000070
+							Position in Segment : 007, Offset : 0280. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5837,9 +5837,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0350. externe L�nge : 000070
+							Position in Segment : 008, Offset : 0350. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5850,9 +5850,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0420. externe L�nge : 000070
+							Position in Segment : 009, Offset : 0420. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5863,9 +5863,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0490. externe L�nge : 000070
+							Position in Segment : 010, Offset : 0490. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5876,9 +5876,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0560. externe L�nge : 000070
+							Position in Segment : 011, Offset : 0560. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5889,9 +5889,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0630. externe L�nge : 000070
+							Position in Segment : 012, Offset : 0630. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5902,9 +5902,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0700. externe L�nge : 000070
+							Position in Segment : 013, Offset : 0700. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5915,9 +5915,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0770. externe L�nge : 000070
+							Position in Segment : 014, Offset : 0770. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5928,9 +5928,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0840. externe L�nge : 000070
+							Position in Segment : 015, Offset : 0840. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5941,9 +5941,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0910. externe L�nge : 000070
+							Position in Segment : 016, Offset : 0910. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5954,9 +5954,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0980. externe L�nge : 000070
+							Position in Segment : 017, Offset : 0980. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -5971,7 +5971,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDKU7
-					freigegeben seit Release 30A , Segmentl�nge : 0070
+					freigegeben seit Release 30A , Segmentlänge : 0070
 				</p>
 				<p></p>
 				<ol>
@@ -5982,9 +5982,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000035
+							Position in Segment : 001, Offset : 0063. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -5995,9 +5995,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0098. externe L�nge : 000035
+							Position in Segment : 002, Offset : 0098. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6012,7 +6012,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDIBA000
-					freigegeben seit Release 620 , Segmentl�nge : 0048
+					freigegeben seit Release 620 , Segmentlänge : 0048
 				</p>
 				<p></p>
 				<ol>
@@ -6023,9 +6023,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -6036,22 +6036,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000034 Stellen
+							interne Länge : 000034 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000034
+							Position in Segment : 002, Offset : 0066. externe Länge : 000034
 						</p>
 						<p></p>
 					</li>
 					<li>
 						SWIFT_CODE                     :
-						<b>S.W.I.F.T-Code f�r internationale Zahlungen</b>
+						<b>S.W.I.F.T-Code für internationale Zahlungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000011 Stellen
+							interne Länge : 000011 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0100. externe L�nge : 000011
+							Position in Segment : 003, Offset : 0100. externe Länge : 000011
 						</p>
 						<p></p>
 					</li>
@@ -6066,20 +6066,20 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDS01000
-					freigegeben seit Release 620 , Segmentl�nge : 0721
+					freigegeben seit Release 620 , Segmentlänge : 0721
 				</p>
 				<p></p>
 				<ol>
 					<li>
 						QUALIFIER                      :
-						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<b>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+							Position in Segment : 001, Offset : 0063. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
@@ -6090,48 +6090,48 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000060 Stellen
+							interne Länge : 000060 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0067. externe L�nge : 000060
+							Position in Segment : 002, Offset : 0067. externe Länge : 000060
 						</p>
 						<p></p>
 					</li>
 					<li>
 						MANDATE_TYPE                   :
-						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<b>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0127. externe L�nge : 000004
+							Position in Segment : 003, Offset : 0127. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
 					<li>
 						VAL_FROM_DATE                  :
-						<b>SEPA: G�ltigkeitsdatum des Mandats (von)</b>
+						<b>SEPA: Gültigkeitsdatum des Mandats (von)</b>
 						<p></p>
 						<p>
 							interner Datentyp : DATS
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0131. externe L�nge : 000008
+							Position in Segment : 004, Offset : 0131. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
 					<li>
 						VAL_TO_DATE                    :
-						<b>SEPA: G�ltigkeitsdatum des Mandats (bis)</b>
+						<b>SEPA: Gültigkeitsdatum des Mandats (bis)</b>
 						<p></p>
 						<p>
 							interner Datentyp : DATS
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0139. externe L�nge : 000008
+							Position in Segment : 005, Offset : 0139. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -6142,9 +6142,9 @@
 						<p>
 							interner Datentyp : DATS
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0147. externe L�nge : 000008
+							Position in Segment : 006, Offset : 0147. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -6155,22 +6155,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0155. externe L�nge : 000040
+							Position in Segment : 007, Offset : 0155. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CREDITOR_ID                    :
-						<b>Kreditorkennung (landes�bergreifend eindeutig)</b>
+						<b>Kreditorkennung (landesübergreifend eindeutig)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0195. externe L�nge : 000035
+							Position in Segment : 008, Offset : 0195. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6181,9 +6181,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0230. externe L�nge : 000040
+							Position in Segment : 009, Offset : 0230. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
@@ -6194,126 +6194,126 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0270. externe L�nge : 000040
+							Position in Segment : 010, Offset : 0270. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						ULTIMATE_CREDITOR_NAME         :
-						<b>SEPA: Name des abweichenden Zahlungsempf�ngers</b>
+						<b>SEPA: Name des abweichenden Zahlungsempfängers</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0310. externe L�nge : 000040
+							Position in Segment : 011, Offset : 0310. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						ULTIMATE_CREDITOR_ID           :
-						<b>SEPA: Identifikation des abweichenden  Zahlungsempf�ngers</b>
+						<b>SEPA: Identifikation des abweichenden  Zahlungsempfängers</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0350. externe L�nge : 000070
+							Position in Segment : 012, Offset : 0350. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
 					<li>
 						AMEND_IND                      :
-						<b>SEPA Amendment-Indikator f�r Mandat</b>
+						<b>SEPA Amendment-Indikator für Mandat</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0420. externe L�nge : 000001
+							Position in Segment : 013, Offset : 0420. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
 					<li>
 						AMENDMENT_REASON_CODE          :
-						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<b>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0421. externe L�nge : 000004
+							Position in Segment : 014, Offset : 0421. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
 					<li>
 						B2B                            :
-						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<b>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0425. externe L�nge : 000004
+							Position in Segment : 015, Offset : 0425. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
 					<li>
 						DEBTOR_NAME1                   :
-						<b>Nachname des Gesch�ftspartners (Person)</b>
+						<b>Nachname des Geschäftspartners (Person)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0429. externe L�nge : 000040
+							Position in Segment : 016, Offset : 0429. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						DEBTOR_NAME2                   :
-						<b>Vorname des Gesch�ftspartners (Person)</b>
+						<b>Vorname des Geschäftspartners (Person)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0469. externe L�nge : 000040
+							Position in Segment : 017, Offset : 0469. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						DEBTOR_IDENTIFICATION          :
-						<b>Datenelement Typ CHAR L�nge 35</b>
+						<b>Datenelement Typ CHAR Länge 35</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0509. externe L�nge : 000035
+							Position in Segment : 018, Offset : 0509. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						LANGUAGE                       :
-						<b>Sprachenschl�ssel</b>
+						<b>Sprachenschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : LANG
 							<br />
-							interne L�nge : 000001 Stellen
+							interne Länge : 000001 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0544. externe L�nge : 000001
+							Position in Segment : 019, Offset : 0544. externe Länge : 000001
 						</p>
 						<p></p>
 					</li>
@@ -6324,9 +6324,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0545. externe L�nge : 000040
+							Position in Segment : 020, Offset : 0545. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
@@ -6337,9 +6337,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0585. externe L�nge : 000070
+							Position in Segment : 021, Offset : 0585. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -6350,9 +6350,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0655. externe L�nge : 000070
+							Position in Segment : 022, Offset : 0655. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -6363,22 +6363,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000034 Stellen
+							interne Länge : 000034 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0725. externe L�nge : 000034
+							Position in Segment : 023, Offset : 0725. externe Länge : 000034
 						</p>
 						<p></p>
 					</li>
 					<li>
 						DEBTOR_SWIFT                   :
-						<b>S.W.I.F.T-Code f�r internationale Zahlungen</b>
+						<b>S.W.I.F.T-Code für internationale Zahlungen</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000011 Stellen
+							interne Länge : 000011 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0759. externe L�nge : 000011
+							Position in Segment : 024, Offset : 0759. externe Länge : 000011
 						</p>
 						<p></p>
 					</li>
@@ -6389,9 +6389,9 @@
 						<p>
 							interner Datentyp : DATS
 							<br />
-							interne L�nge : 000008 Stellen
+							interne Länge : 000008 Stellen
 							<br />
-							Position in Segment : 025, Offset : 0770. externe L�nge : 000008
+							Position in Segment : 025, Offset : 0770. externe Länge : 000008
 						</p>
 						<p></p>
 					</li>
@@ -6402,9 +6402,9 @@
 						<p>
 							interner Datentyp : TIMS
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 026, Offset : 0778. externe L�nge : 000006
+							Position in Segment : 026, Offset : 0778. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -6419,7 +6419,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDAD1000
-					freigegeben seit Release 620 , Segmentl�nge : 0686
+					freigegeben seit Release 620 , Segmentlänge : 0686
 				</p>
 				<p></p>
 				<ol>
@@ -6430,9 +6430,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000003
+							Position in Segment : 001, Offset : 0063. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -6443,35 +6443,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000015 Stellen
+							interne Länge : 000015 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0066. externe L�nge : 000015
+							Position in Segment : 002, Offset : 0066. externe Länge : 000015
 						</p>
 						<p></p>
 					</li>
 					<li>
 						NAME1                          :
-						<b>Nachname des Gesch�ftspartners (Person)</b>
+						<b>Nachname des Geschäftspartners (Person)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0081. externe L�nge : 000040
+							Position in Segment : 003, Offset : 0081. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						NAME2                          :
-						<b>Vorname des Gesch�ftspartners (Person)</b>
+						<b>Vorname des Geschäftspartners (Person)</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0121. externe L�nge : 000040
+							Position in Segment : 004, Offset : 0121. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
@@ -6482,9 +6482,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0161. externe L�nge : 000035
+							Position in Segment : 005, Offset : 0161. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6495,35 +6495,35 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 006, Offset : 0196. externe L�nge : 000035
+							Position in Segment : 006, Offset : 0196. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STREET1                        :
-						<b>Stra�e</b>
+						<b>Straße</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000060 Stellen
+							interne Länge : 000060 Stellen
 							<br />
-							Position in Segment : 007, Offset : 0231. externe L�nge : 000060
+							Position in Segment : 007, Offset : 0231. externe Länge : 000060
 						</p>
 						<p></p>
 					</li>
 					<li>
 						STREET2                        :
-						<b>Stra�e</b>
+						<b>Straße</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000060 Stellen
+							interne Länge : 000060 Stellen
 							<br />
-							Position in Segment : 008, Offset : 0291. externe L�nge : 000060
+							Position in Segment : 008, Offset : 0291. externe Länge : 000060
 						</p>
 						<p></p>
 					</li>
@@ -6534,9 +6534,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 009, Offset : 0351. externe L�nge : 000040
+							Position in Segment : 009, Offset : 0351. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
@@ -6547,9 +6547,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 010, Offset : 0391. externe L�nge : 000040
+							Position in Segment : 010, Offset : 0391. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
@@ -6560,9 +6560,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000006 Stellen
+							interne Länge : 000006 Stellen
 							<br />
-							Position in Segment : 011, Offset : 0431. externe L�nge : 000006
+							Position in Segment : 011, Offset : 0431. externe Länge : 000006
 						</p>
 						<p></p>
 					</li>
@@ -6573,9 +6573,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000010 Stellen
+							interne Länge : 000010 Stellen
 							<br />
-							Position in Segment : 012, Offset : 0437. externe L�nge : 000010
+							Position in Segment : 012, Offset : 0437. externe Länge : 000010
 						</p>
 						<p></p>
 					</li>
@@ -6586,9 +6586,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000010 Stellen
+							interne Länge : 000010 Stellen
 							<br />
-							Position in Segment : 013, Offset : 0447. externe L�nge : 000010
+							Position in Segment : 013, Offset : 0447. externe Länge : 000010
 						</p>
 						<p></p>
 					</li>
@@ -6599,9 +6599,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000010 Stellen
+							interne Länge : 000010 Stellen
 							<br />
-							Position in Segment : 014, Offset : 0457. externe L�nge : 000010
+							Position in Segment : 014, Offset : 0457. externe Länge : 000010
 						</p>
 						<p></p>
 					</li>
@@ -6612,22 +6612,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000040 Stellen
+							interne Länge : 000040 Stellen
 							<br />
-							Position in Segment : 015, Offset : 0467. externe L�nge : 000040
+							Position in Segment : 015, Offset : 0467. externe Länge : 000040
 						</p>
 						<p></p>
 					</li>
 					<li>
 						COUNTRY_KEY                    :
-						<b>L�nderschl�ssel</b>
+						<b>Länderschlüssel</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 016, Offset : 0507. externe L�nge : 000003
+							Position in Segment : 016, Offset : 0507. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -6638,9 +6638,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000003 Stellen
+							interne Länge : 000003 Stellen
 							<br />
-							Position in Segment : 017, Offset : 0510. externe L�nge : 000003
+							Position in Segment : 017, Offset : 0510. externe Länge : 000003
 						</p>
 						<p></p>
 					</li>
@@ -6651,9 +6651,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000030 Stellen
+							interne Länge : 000030 Stellen
 							<br />
-							Position in Segment : 018, Offset : 0513. externe L�nge : 000030
+							Position in Segment : 018, Offset : 0513. externe Länge : 000030
 						</p>
 						<p></p>
 					</li>
@@ -6664,22 +6664,22 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000031 Stellen
+							interne Länge : 000031 Stellen
 							<br />
-							Position in Segment : 019, Offset : 0543. externe L�nge : 000031
+							Position in Segment : 019, Offset : 0543. externe Länge : 000031
 						</p>
 						<p></p>
 					</li>
 					<li>
 						IDENTIFICATION_CODE            :
-						<b>Datenelement Typ CHAR L�nge 35</b>
+						<b>Datenelement Typ CHAR Länge 35</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 020, Offset : 0574. externe L�nge : 000035
+							Position in Segment : 020, Offset : 0574. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6690,9 +6690,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 021, Offset : 0609. externe L�nge : 000035
+							Position in Segment : 021, Offset : 0609. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6703,9 +6703,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 022, Offset : 0644. externe L�nge : 000035
+							Position in Segment : 022, Offset : 0644. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6716,9 +6716,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 023, Offset : 0679. externe L�nge : 000035
+							Position in Segment : 023, Offset : 0679. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6729,9 +6729,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 024, Offset : 0714. externe L�nge : 000035
+							Position in Segment : 024, Offset : 0714. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6746,33 +6746,33 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDTRA000
-					freigegeben seit Release 620 , Segmentl�nge : 0117
+					freigegeben seit Release 620 , Segmentlänge : 0117
 				</p>
 				<p></p>
 				<ol>
 					<li>
 						PURPOSE_CODE                   :
-						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<b>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 000004
+							Position in Segment : 001, Offset : 0063. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
 					<li>
 						CATEGORY_PURPOSE_CODE          :
-						<b>Nicht n�her def. Bereich, evtl. f�r Patchlevels verwendbar</b>
+						<b>Nicht näher def. Bereich, evtl. für Patchlevels verwendbar</b>
 						<p></p>
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 002, Offset : 0067. externe L�nge : 000004
+							Position in Segment : 002, Offset : 0067. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
@@ -6783,9 +6783,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000004 Stellen
+							interne Länge : 000004 Stellen
 							<br />
-							Position in Segment : 003, Offset : 0071. externe L�nge : 000004
+							Position in Segment : 003, Offset : 0071. externe Länge : 000004
 						</p>
 						<p></p>
 					</li>
@@ -6796,9 +6796,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000035 Stellen
+							interne Länge : 000035 Stellen
 							<br />
-							Position in Segment : 004, Offset : 0075. externe L�nge : 000035
+							Position in Segment : 004, Offset : 0075. externe Länge : 000035
 						</p>
 						<p></p>
 					</li>
@@ -6809,9 +6809,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 000070 Stellen
+							interne Länge : 000070 Stellen
 							<br />
-							Position in Segment : 005, Offset : 0110. externe L�nge : 000070
+							Position in Segment : 005, Offset : 0110. externe Länge : 000070
 						</p>
 						<p></p>
 					</li>
@@ -6826,7 +6826,7 @@
 				</h2>
 				<p>
 					Segmentdefinition E2IDDS1000
-					freigegeben seit Release 620 , Segmentl�nge : 1000
+					freigegeben seit Release 620 , Segmentlänge : 1000
 				</p>
 				<p></p>
 				<ol>
@@ -6837,9 +6837,9 @@
 						<p>
 							interner Datentyp : CHAR
 							<br />
-							interne L�nge : 001000 Stellen
+							interne Länge : 001000 Stellen
 							<br />
-							Position in Segment : 001, Offset : 0063. externe L�nge : 001000
+							Position in Segment : 001, Offset : 0063. externe Länge : 001000
 						</p>
 						<p></p>
 					</li>
@@ -6868,7 +6868,7 @@
 			Transaktion WE60
 		</p>
 		<p>
-			Anzeige f�r Release 702
+			Anzeige für Release 702
 			<br />
 			Version 3 der IDoc Satzarten : IDoc Satzarten SAP-Release 4.0
 		</p>
