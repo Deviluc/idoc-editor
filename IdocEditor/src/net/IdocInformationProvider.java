@@ -1,5 +1,6 @@
 package net;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import javax.xml.parsers.ParserConfigurationException;
@@ -28,13 +29,27 @@ public class IdocInformationProvider {
 			ident = ident.substring(0, 7);
 		}
 		
-		final String relativeUrl = (ident.charAt(0) + "").toLowerCase() + "/" + ident.substring(0, 4).toLowerCase() + "/" + ident.toLowerCase();
+		String relativeUrlTmp = (ident.charAt(0) + "").toLowerCase() + "/" + ident.substring(0, 4).toLowerCase() + "/" + ident.toLowerCase();
 		
-		String url = "http://www.se80.co.uk/saptables/" + relativeUrl + ".htm";
+		String url = "http://www.se80.co.uk/saptables/" + relativeUrlTmp + ".htm";
 		
-		Document doc = DocumentProvider.getCleanXmlDocument(url);
+		Document doc = null;
+		
+		try {
+			doc = DocumentProvider.getCleanXmlDocument(url);
+		} catch (FileNotFoundException e) {
+			StringBuilder b = new StringBuilder(ident);
+			b.setCharAt(1, '1');
+			ident = b.toString();
+			relativeUrlTmp = (ident.charAt(0) + "").toLowerCase() + "/" + ident.substring(0, 4).toLowerCase() + "/" + ident.toLowerCase();
+			url = "http://www.se80.co.uk/saptables/" + relativeUrlTmp + ".htm";
+			doc = DocumentProvider.getCleanXmlDocument(url);
+		}
+		
+		final String relativeUrl = relativeUrlTmp;
 		
 		NodeList fields = (NodeList) XpathUtil.createXpath("//table[@class='tableFields']//tr[@class='otherField']").evaluate(doc, XPathConstants.NODESET);
+		
 		
 		for (int i = 0; i < fields.getLength(); i++) {
 			Node field = fields.item(i);

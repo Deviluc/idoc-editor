@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 
 import model.Idoc;
+import model.IdocDescription;
 import net.IdocInformationProvider;
 import parser.IdocDescriptionParser;
 import parser.IdocParser;
@@ -19,7 +20,9 @@ public class TestIdocParsing {
 
 	@Test
 	public void testDescriptionParser() throws XPathExpressionException, SAXException, IOException, ParserConfigurationException {
-		IdocDescriptionParser.parse().forEach(t -> {
+		IdocDescription des = IdocDescriptionParser.parse();
+		
+		des.forEach(t -> {
 			try {
 				IdocInformationProvider.enrichSegmentInformations(t);
 			} catch (XPathExpressionException | ParserConfigurationException | IOException e) {
@@ -27,11 +30,13 @@ public class TestIdocParsing {
 				e.printStackTrace();
 			}
 		});
+		
+		des.writeToFile("resources/idoc-description.xml");
 	}
 
 	@Test
 	public void testIdocParser() throws IOException {
-		Idoc idoc = IdocParser.parse("test.idoc");
+		Idoc idoc = IdocParser.parse("test.idoc", new IdocDescription("resources/idoc-description.xml"));
 		
 		FileWriter writer = new FileWriter(new File(idoc.getFilename() + ".generated"));
 		writer.write(idoc.generateIdocFile());

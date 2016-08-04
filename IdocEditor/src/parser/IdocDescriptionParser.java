@@ -12,6 +12,7 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 
 import model.FieldDescription;
+import model.IdocDescription;
 import model.SegmentDescription;
 import util.XpathUtil;
 
@@ -22,7 +23,7 @@ import org.xml.sax.SAXException;
 
 public class IdocDescriptionParser {
 
-	public static List<SegmentDescription> parse() throws SAXException, IOException, ParserConfigurationException, XPathExpressionException {
+	public static IdocDescription parse() throws SAXException, IOException, ParserConfigurationException, XPathExpressionException {
 		final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		final Document doc = factory.newDocumentBuilder().parse("PEXR2003_d.xml");
 
@@ -33,7 +34,7 @@ public class IdocDescriptionParser {
 		final Pattern offsetLengthPattern = Pattern.compile("Offset\\s:\\s([0-9]+)\\.\\sexterne\\sLänge\\s:\\s([0-9]+)");
 		final Pattern fieldIdentifierPattern = Pattern.compile("Segmentdefinition\\s([^\\n\\r]*)");
 
-		final List<SegmentDescription> segments = new ArrayList<SegmentDescription>();
+		final IdocDescription segments = new IdocDescription();
 
 		for (int i = 0; i < segHeads.getLength(); i++) {
 			final Node segHead = segHeads.item(i);

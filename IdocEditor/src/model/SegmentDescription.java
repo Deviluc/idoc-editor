@@ -37,6 +37,11 @@ public class SegmentDescription {
 	public int getMaximalOccurences() {
 		return max;
 	}
+	
+	
+	public List<String> getIdentifiers() {
+		return identifiers;
+	}
 
 	public List<FieldDescription> getFieldDescriptions() {
 		return fields;

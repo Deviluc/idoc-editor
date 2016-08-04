@@ -12,6 +12,7 @@ import javax.xml.xpath.XPathExpressionException;
 
 import model.ControlSegment;
 import model.Idoc;
+import model.IdocDescription;
 import model.IdocSection;
 import model.Segment;
 import model.SegmentDescription;
@@ -21,31 +22,39 @@ import org.xml.sax.SAXException;
 
 public class IdocParser {
 
-	public static Idoc parse(final String filename) throws IOException {
+	public static Idoc parse(final String filename, final IdocDescription idocDescription) throws IOException {
 		BufferedReader reader = null;
 
 		try {
-			reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename)));
-
-			List<SegmentDescription> segmentDescriptions = null;
-
-			try {
-				segmentDescriptions = IdocDescriptionParser.parse();
-			} catch (XPathExpressionException | SAXException | ParserConfigurationException e) {
-				throw new RuntimeException("Cannot parse idoc-description!", e);
+			// Get line ending
+			FileInputStream in = new FileInputStream(filename);
+			String lineEnding = System.getProperty("line.separator");
+			
+			while (in.available() > 0) {
+				char currentChar = (char) in.read();
+				
+				if (currentChar == '\r') {
+					if ((char) in.read() == '\n') {
+						lineEnding = "\r\n";
+						break;
+					} else {
+						lineEnding = "\r";
+						break;
+					}
+				} else if (currentChar == '\n') {
+					if ((char) in.read() == '\r') {
+						lineEnding = "\n\r";
+					} else {
+						lineEnding = "\n";
+					}
+				}
 			}
 			
-			segmentDescriptions.forEach(s -> {
-				try {
-					IdocInformationProvider.enrichSegmentInformations(s);
-				} catch (XPathExpressionException | ParserConfigurationException | IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			});
+			
+			reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename)));
 
 			
-			final Idoc result = new Idoc("test.idoc");
+			final Idoc result = new Idoc("test.idoc", lineEnding);
 			
 			String line;
 			IdocSection currentSection = null;
@@ -68,7 +77,7 @@ public class IdocParser {
 				final AtomicBoolean matched = new AtomicBoolean(false);
 				
 				final IdocSection finalSec = currentSection;
-				segmentDescriptions.forEach(s -> {
+				idocDescription.forEach(s -> {
 					if (s.isLineOfThisSegmentType(finalLine)) {
 						final Segment segment = new Segment(s);
 						segment.parseLine(finalLine);

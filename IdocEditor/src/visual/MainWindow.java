@@ -10,6 +10,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.layout.VBox;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import model.IdocDescription;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,6 +18,8 @@ import java.io.IOException;
 import parser.IdocParser;
 
 public class MainWindow extends Application {
+	
+	private IdocDescription idocDescription = new IdocDescription("resources/idoc-description.xml");
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
@@ -30,7 +33,7 @@ public class MainWindow extends Application {
 		menuItemOpen.setOnAction(a -> {
 			Optional.ofNullable(new FileChooser().showOpenDialog(primaryStage)).ifPresent(f -> {
 				try {
-					treeView.loadIdoc(IdocParser.parse(f.getAbsolutePath()));
+					treeView.loadIdoc(IdocParser.parse(f.getAbsolutePath(), idocDescription));
 				} catch (IOException e) {
 					//TODO Error dialog
 					e.printStackTrace();
