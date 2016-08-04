@@ -10,6 +10,8 @@ public class SegmentDescription {
 	private final int min, max;
 	private final List<FieldDescription> fields;
 	private final List<String> identifiers;
+	
+	private String internalName;
 
 	public SegmentDescription(final String name, final int min, final int max) {
 		this.name = name;
@@ -22,6 +24,10 @@ public class SegmentDescription {
 
 	public String getName() {
 		return name;
+	}
+	
+	public String getInternalName() {
+		return internalName;
 	}
 
 	public int getMinimumOccurences() {
@@ -54,6 +60,10 @@ public class SegmentDescription {
 
 	public void addIdentifier(final String identifier) {
 		identifiers.add(identifier);
+	}
+	
+	public void setInternalName(final String internalName) {
+		this.internalName = internalName;
 	}
 
 }

@@ -15,6 +15,7 @@ import model.Idoc;
 import model.IdocSection;
 import model.Segment;
 import model.SegmentDescription;
+import net.IdocInformationProvider;
 
 import org.xml.sax.SAXException;
 
@@ -33,6 +34,15 @@ public class IdocParser {
 			} catch (XPathExpressionException | SAXException | ParserConfigurationException e) {
 				throw new RuntimeException("Cannot parse idoc-description!", e);
 			}
+			
+			segmentDescriptions.forEach(s -> {
+				try {
+					IdocInformationProvider.enrichSegmentInformations(s);
+				} catch (XPathExpressionException | ParserConfigurationException | IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			});
 
 			
 			final Idoc result = new Idoc("test.idoc");
@@ -70,16 +80,21 @@ public class IdocParser {
 
 				
 				if (!matched.get()) {
-					System.out.println("Line skipped: " + line);
+					//System.out.println("Line skipped: " + line);
 				}
 			}
 			
 			if (currentSection != null) result.addSection(currentSection);
 
 			return result;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} finally {
 			reader.close();
 		}
+		
+		return null;
 	}
 
 }

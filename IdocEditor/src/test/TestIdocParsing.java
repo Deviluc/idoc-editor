@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import org.xml.sax.SAXException;
 
 import model.Idoc;
+import net.IdocInformationProvider;
 import parser.IdocDescriptionParser;
 import parser.IdocParser;
 
@@ -18,7 +19,14 @@ public class TestIdocParsing {
 
 	@Test
 	public void testDescriptionParser() throws XPathExpressionException, SAXException, IOException, ParserConfigurationException {
-		IdocDescriptionParser.parse();
+		IdocDescriptionParser.parse().forEach(t -> {
+			try {
+				IdocInformationProvider.enrichSegmentInformations(t);
+			} catch (XPathExpressionException | ParserConfigurationException | IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		});
 	}
 
 	@Test
