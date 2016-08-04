@@ -39,7 +39,7 @@ public class IdocDescription extends ArrayList<SegmentDescription>{
 			final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			final Document doc = factory.newDocumentBuilder().parse(filePath);
 			
-			List<Node> segs = XmlUtil.asList(doc.getElementsByTagName("IdocPexr2003").item(0).getChildNodes());
+			List<Node> segs = XmlUtil.asList(doc.getElementsByTagName("Segment"));
 			
 			segs.forEach(d -> {
 				NamedNodeMap segMap = d.getAttributes();
@@ -58,7 +58,10 @@ public class IdocDescription extends ArrayList<SegmentDescription>{
 						try {
 							values = XmlUtil.asList((NodeList) XpathUtil.createXpath("//Segment[@internal-name='" + segDes.getInternalName() + "']/Field[@internal-name='" + fieldDes.getInternalName() + "']/Values/PossibleValue").evaluate(doc, XPathConstants.NODESET));
 							values.forEach(v -> {
-								FieldValue value = new FieldValue(v.getFirstChild().getFirstChild().getNodeValue(), v.getLastChild().getFirstChild().getNodeValue());
+								List<Node> nodes = XmlUtil.asList(v.getChildNodes());
+								String val = nodes.stream().filter(n -> n.getNodeName().equals("Value")).findFirst().get().getTextContent();
+								String des = nodes.stream().filter(n -> n.getNodeName().equals("Description")).findFirst().get().getTextContent();
+								FieldValue value = new FieldValue(val, des);
 								fieldDes.addFieldValue(value);
 							});
 						} catch (XPathExpressionException e) {
